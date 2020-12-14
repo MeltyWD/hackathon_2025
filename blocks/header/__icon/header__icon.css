@@ -1,0 +1,12 @@
+.header__icon {
+  height: 32px;
+  width: 32px;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.header__icon:first-child {
+  margin-right: 15px;
+}
