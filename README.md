@@ -28,4 +28,4 @@
 
 * Портнягин Андрей (https://github.com/MeltyWD)
 * Кирил Шашичев (https://github.com/Qtrixnet)
-* Данил Иванов
+* Данил Иванов (https://github.com/timdancan)
