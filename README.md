@@ -26,6 +26,6 @@
 
 ###### Веб-разработка:
 
-* Портнягин Андрей (https://github.com/MeltyWD)
-* Кирил Шашичев (https://github.com/Qtrixnet)
-* Данил Иванов (https://github.com/timdancan)
+* [Портнягин Андрей](https://github.com/MeltyWD)
+* [Кирил Шашичев](https://github.com/Qtrixnet)
+* [Данил Иванов](https://github.com/timdancan)
