@@ -1,0 +1,6 @@
+.description__list {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 56px;
+  align-items: center;
+}

@@ -1,0 +1,6 @@
+.description__item {
+  width: 144px;
+  background: rgba(0, 0, 0, 0.15);
+  padding: 20px;
+  box-sizing: border-box;
+}
