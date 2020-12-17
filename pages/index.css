@@ -5,6 +5,7 @@
 @import url(../blocks/header/__container/header__container.css);
 @import url(../blocks/header/__description/header__description.css);
 @import url(../blocks/logo/logo.css);
+@import url(../blocks/logo/__span/logo__span.css);
 @import url(../blocks/page-link/page-link.css);
 @import url(../blocks/header/__icon/header__icon.css);
 @import url(../blocks/header/__icon/_type/header__icon_type_basket.css);
