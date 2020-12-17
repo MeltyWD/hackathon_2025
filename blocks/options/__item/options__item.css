@@ -1,0 +1,7 @@
+.options__item {
+  background: rgba(0, 0, 0, 0.15);
+  height: 112px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
