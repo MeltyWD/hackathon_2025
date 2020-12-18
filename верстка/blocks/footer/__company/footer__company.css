@@ -1,0 +1,11 @@
+.footer__company {
+  margin: 0;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 24px;
+}
+
+.footer__company:first-child {
+  margin-bottom: 34px;
+}
