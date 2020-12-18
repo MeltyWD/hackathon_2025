@@ -7,7 +7,7 @@ function Footer(props) {
       <div className="footer__container content">
         <div className="footer__info">
           <p className="footer__company">info@ciceron.com</p>
-          <p className="footer__company">© НКО “Цицерон”</p>
+          <p className="footer__company">© НКО “Письма”</p>
         </div>
         <div className="footer__contact">
           <p className="footer__number">+7 (000) 123 4567</p>
