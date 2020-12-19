@@ -1,4 +1,4 @@
-import imageArrow from '../images/Arrow.png';
+import imageArrow from '../../images/Arrow.png';
 
 function FirstPage(props) {
 

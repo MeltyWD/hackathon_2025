@@ -1,14 +1,12 @@
-import imageArrow from '../images/Arrow.png';
+import imageArrow from '../../images/Arrow.png';
 
-function SecondPage(props) {
-
+function TopPageSection(props) {
   return (
-    <section className={`page ${ props.selected === props.pageNumber && 'page_active'}`}>
-      <section className="selection content">
+    <section className="selection content">
         <div className="selection__container">
           <div className="selection__text">
-            <p className="selections__decision">Текст</p>
-            <p className="selections__question">Текст</p>
+            <p className="selections__decision">{props.decisionText}</p>
+            <p className="selections__question">{props.questionText}</p>
           </div>
           <div className="description description_size_small">
             <h1 className="description__title description__title_size_small">
@@ -75,19 +73,7 @@ function SecondPage(props) {
           </div>
         </div>
       </section>
-      <section className="options content">
-        <div className="options__grid">
-          <article className="options__item"><h4 className="options__text">Текст</h4></article>
-          <article className="options__item options__item_active"><h4 className="options__text">Текст</h4></article>
-          <article className="options__item"><h4 className="options__text">Текст</h4></article>
-          <article className="options__item"><h4 className="options__text">Текст</h4></article>
-          <article className="options__item"><h4 className="options__text">Текст</h4></article>
-          <article className="options__item"><h4 className="options__text">Текст</h4></article>
-        </div>
-        <button onClick={() => props.onClickPageChange(1)} className="button button_options page-link">Назад</button>
-      </section>
-    </section>
   )
 }
 
-export default SecondPage;
+export default TopPageSection;
