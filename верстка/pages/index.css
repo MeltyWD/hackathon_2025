@@ -6,6 +6,7 @@
 @import url(../blocks/header/__description/header__description.css);
 @import url(../blocks/logo/logo.css);
 @import url(../blocks/logo/__span/logo__span.css);
+@import url(../blocks//logo/__icon/logo__icon.css);
 @import url(../blocks/page-link/page-link.css);
 @import url(../blocks/header/__icon/header__icon.css);
 @import url(../blocks/header/__icon/_type/header__icon_type_basket.css);
@@ -14,6 +15,8 @@
 @import url(../blocks/banner/__text/banner__text.css);
 @import url(../blocks/banner/__title/banner__title.css);
 @import url(../blocks/banner/__subtitle/banner__subtitle.css);
+@import url(../blocks/banner/__img/banner__img.css);
+@import url(../blocks/description/description.css);
 @import url(../blocks/description/__title/description__title.css);
 @import url(../blocks/description/_size/description_size_small.css);
 @import url(../blocks/description/__title/_size/description__title_size_small.css);
@@ -39,7 +42,8 @@
 @import url(../blocks/options/__item/options__item.css);
 @import url(../blocks/options/__item/_active/options__item_active.css);
 @import url(../blocks/options/__text/options__text.css);
-@import url(../blocks/variants/__container/variants__container.css);
+@import url(../blocks/variants/__container/__container/variants__container.css);
+@import url(../blocks/variants/__container/variants.css);
 @import url(../blocks/variant/variant.css);
 @import url(../blocks/variant/__buttons/variant__buttons.css);
 @import url(../blocks/button/_form/buttons_form.css);

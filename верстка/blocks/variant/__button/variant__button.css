@@ -1,11 +1,19 @@
 .variant__button {
-  width: 24px;
-  height: 24px;
-  background-image: url(../../../images/close.svg);
-  background-size: cover;
-  box-shadow: none;
-  background-color: transparent;
-  position: absolute;
-  top: 10px;
-  right: 10px;
+    width: 24px;
+    height: 24px;
+    background-image: url(../../../images/close.svg);
+    background-size: cover;
+    box-shadow: none;
+    background-color: transparent;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+@media screen and (max-width: 425px) {
+    .button.variant__button {
+        background-image: url(../../../images/bx_bx-add-to-queue.svg);
+        top: 121px;
+        right: 9px;
+    }
 }

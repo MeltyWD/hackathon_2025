@@ -1,11 +1,27 @@
 .footer__company {
-  margin: 0;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 24px;
-  line-height: 24px;
+    margin: 0;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 24px;
 }
 
 .footer__company:first-child {
-  margin-bottom: 34px;
+    margin-bottom: 34px;
+}
+
+@media screen and (max-width: 425px) {
+    .footer__company:first-child {
+        display: none;
+    }
+    .footer__company {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 19px;
+        width: 150px;
+        display: inline-block;
+        align-self: center;
+        justify-self: flex-start;
+        margin-right: 30px;
+    }
 }

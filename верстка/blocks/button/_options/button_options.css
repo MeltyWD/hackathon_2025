@@ -1,9 +1,15 @@
 .button_options {
-  margin-top: 224px;
-  padding: 10px 70px;
+    margin-top: 224px;
+    padding: 10px 70px;
 }
 
 .button_options:nth-child(2) {
-  margin-top: 289px;
-  margin-bottom: 72px;
+    margin-top: 289px;
+    margin-bottom: 72px;
+}
+
+@media screen and (max-width: 425px) {
+    .button_options.page-link {
+        margin: 20px auto;
+    }
 }
