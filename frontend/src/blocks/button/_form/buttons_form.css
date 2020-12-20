@@ -1,0 +1,6 @@
+.button_form {
+  padding: 10px 0 10px 0;
+  width: 192px;
+  display: flex;
+  justify-content: center;
+}
