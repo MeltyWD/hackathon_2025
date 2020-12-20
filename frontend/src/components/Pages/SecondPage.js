@@ -22,14 +22,30 @@ function SecondPage(props) {
       <PageQuestion 
         onClickBack={handleClickBack}
         onClickSelect={handleClickNext}
-        categoryList={[
-          'Дом', 
-          'Двор', 
-          'Улица', 
-          'Общественное пространство', 
-          'Транспорт',
-          'Гос. учреждения'
-        ]}
+        categoryList={[{
+          text: 'Дом',
+          search: 'Дом'
+        },
+        {
+          text: 'Двор',
+          search: 'Двор'
+        },
+        {
+          text: 'Улица',
+          search: 'улица'
+        },
+        {
+          text: 'Общественное пространство',
+          search: 'окружение'
+        },
+        {
+          text: 'Транспорт',
+          search: 'повозка'
+        },
+        {
+          text: 'Гос. учреждения',
+          search: 'государство'
+        }]}
       />
     </section>
   )

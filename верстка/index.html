@@ -5,10 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Цицерон</title>
     <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Rubik+Mono+One&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Vollkorn:ital,wght@0,600;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./pages/index.css" />
   </head>
   <body>
@@ -179,8 +177,93 @@
             <button class="button button_options page-link">Назад</button>
           </section>
 
+          <section class="variants content">
+            <div class="variants__container">
+              <article class="variant">
+                <p class="variant__text">Ночь, улица, фонарь, аптека,
+                  Бессмысленный и тусклый свет.
+                  Живи ещё хоть четверть века –
+                  Всё будет так. Исхода нет.
+                </p>
+                <p class="variant__text">А.Блок</p>
+                <button class="button variant__button page-link"></button>
+                <button class="button button_variant page-link">Годно, беру</button>
+              </article>
+              <article class="variant">
+                <p class="variant__text">Ночь, улица, фонарь, аптека,
+                  Бессмысленный и тусклый свет.
+                  Живи ещё хоть четверть века –
+                  Всё будет так. Исхода нет.
+                </p>
+                <p class="variant__text">А.Блок</p>
+                <button class="button variant__button page-link"></button>
+                <button class="button button_variant page-link">Годно, беру</button>
+              </article>
+            </div>
+            <button class="button button_options page-link">Назад</button>
+          </section>
+
+
+          <section class="variants content">
+            <div class="variants__container">
+              <article class="variant">
+                <p class="variant__text">Ночь, улица, фонарь, аптека,
+                  Бессмысленный и тусклый свет.
+                  Живи ещё хоть четверть века –
+                  Всё будет так. Исхода нет.
+                </p>
+                <p class="variant__text">А.Блок</p>
+              </article>
+              <form class="variant__form">
+                <label class="variant__label">
+                <input class="variant__input" type="text" placeholder="Имя, фамилия" required></label>
+                <label class="variant__label">
+                <input class="variant__input" type="text" placeholder="Адрес" required></label>
+                <label class="variant__label">
+                <textarea class="variant__textarea" type="text" placeholder="Дополнительные сведения (необязательно)" required></textarea></label>
+                <div class="variant__buttons">
+                  <button class="button button_form page-link" type="submit">Отправить</button>
+                  <button class="button button_form page-link">Ой, ну его нафиг...</button>
+                </div>
+              </form>
+            </div>
+            <button class="button button_options page-link">Назад</button>
+          </section>
+
+          <section class="form content">
+            <form class="variant__form">
+              <label class="variant__label">
+              <input class="variant__input" type="text" placeholder="Логин" required></label>
+              <label class="variant__label">
+              <input class="variant__input" type="text" placeholder="Пароль" required></label>
+              <label class="variant__label">
+              <div class="variant__buttons">
+                <button class="button button_form page-link" type="submit">Войти уже, ну!</button>
+                <button class="button button_form page-link">Ой, ну его нафиг...</button>
+              </div>
+            </form>
+          </section>
+
         </section>
       </main>
+
+      <div class="popup">
+        <div class="popup__content">
+          <p class="popup__text">Ваша инициатива “Ночь, улица, фонарь, аптека” зарегистрирована и будет рассмотрена в ближайшее время.
+            Регистрационный номер для отслеживания
+            И141220Н00201</p>
+          <button class="button button_popup page-link">Вернуться к началу</button>
+        </div>
+      </div>
+
+      <div class="popup">
+        <div class="popup__content">
+          <p class="popup__text">ПОЗДРАВЛЯЕМ!
+            Ваша замечательная инициатива “Вчера был день разлуки шумной” номер И141220Н00201
+            вышла на первое место в Топ инициатив!</p>
+          <button class="button button_popup page-link">Ура!</button>
+        </div>
+      </div>
 
       <footer class="footer">
         <div class="footer__container content">

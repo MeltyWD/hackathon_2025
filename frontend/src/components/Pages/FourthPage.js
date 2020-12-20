@@ -10,7 +10,7 @@ function ThirdPage(props) {
 
   function handleClickNext(text) {
     props.selectedCategory(text)
-    props.onClickPageChange(4)
+    props.onClickPageChange(5)
   }
 
   return (
@@ -22,14 +22,30 @@ function ThirdPage(props) {
       <PageQuestion 
         onClickBack={handleClickBack}
         onClickSelect={handleClickNext}
-        categoryList={[
-          'Сделать', 
-          'Проверить', 
-          'Почистить', 
-          'Починить', 
-          'Убрать',
-          'Полюбоваться'
-        ]}
+        categoryList={[{
+          text: 'Сделать',
+          search: 'Сделать'
+        },
+        {
+          text: 'Проверить',
+          search: 'Проверить'
+        },
+        {
+          text: 'Почистить',
+          search: 'Почистить'
+        },
+        {
+          text: 'Починить',
+          search: 'Починить'
+        },
+        {
+          text: 'Убрать',
+          search: 'Убрать'
+        },
+        {
+          text: 'Полюбоваться',
+          search: 'Полюбоваться'
+        }]}
       />
     </section>
   )

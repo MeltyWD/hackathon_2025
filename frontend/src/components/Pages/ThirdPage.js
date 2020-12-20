@@ -22,14 +22,30 @@ function ThirdPage(props) {
       <PageQuestion 
         onClickBack={handleClickBack}
         onClickSelect={handleClickNext}
-        categoryList={[
-          'Освещение', 
-          'Состояние', 
-          'Безопасность', 
-          'Знаки и разметка', 
-          'Остановки',
-          'Реклама'
-        ]}
+        categoryList={[{
+          text: 'Освещение',
+          search: 'Освещение'
+        },
+        {
+          text: 'Состояние',
+          search: 'Состояние'
+        },
+        {
+          text: 'Безопасность',
+          search: 'Безопасность'
+        },
+        {
+          text: 'Знаки и разметка',
+          search: 'Знаки и разметка'
+        },
+        {
+          text: 'Остановки',
+          search: 'Остановки'
+        },
+        {
+          text: 'Реклама',
+          search: 'Реклама'
+        }]}
       />
     </section>
   )

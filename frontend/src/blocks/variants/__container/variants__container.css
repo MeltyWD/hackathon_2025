@@ -1,0 +1,7 @@
+.variants__container {
+  padding-top: 42px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(432px, 1fr));
+  grid-template-rows: auto;
+  gap: 40px 96px;
+}
