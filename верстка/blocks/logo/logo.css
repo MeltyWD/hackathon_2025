@@ -1,14 +1,16 @@
 .logo {
-  margin: 0;
-  font-style: normal;
-  font-weight: 900;
-  font-size: 48px;
-  line-height: 56px;
-  max-width: 230px;
-  position: relative;
+    margin: 0;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 56px;
+    max-width: 230px;
+    position: relative;
+    z-index: 2;
 }
 
-.logo::after {
+
+/* .logo::after {
   content: '';
   position: absolute;
   background-image: url(../../images/logo.svg);
@@ -16,4 +18,17 @@
   height: 71px;
   top: 15px;
   left: 160px;
+  filter: grayscale(100);
+  z-index: 1;
+} */
+
+@media screen and (max-width: 425px) {
+    .logo {
+        font-size: 28px;
+        line-height: 38px;
+    }
+    /* .logo::after {
+    top: 0px;
+    left: 93px;
+  } */
 }

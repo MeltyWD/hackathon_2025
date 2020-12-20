@@ -1,9 +1,12 @@
 .page-link {
-  color: black;
-  text-decoration: none;
-  transition: opacity .2s linear;
+    color: black;
+    text-decoration: none;
+    transition: opacity .2s linear;
+    position: relative;
+    display: flex;
+    flex-direction: column;
 }
 
 .page-link:hover {
-  opacity: .7;
+    opacity: .7;
 }

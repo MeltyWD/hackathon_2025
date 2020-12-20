@@ -1,6 +1,13 @@
 .button_popup {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  padding: 10px 0 10px 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 10px 0 10px 0;
+}
+
+@media screen and (max-width: 425px) {
+    .button_popup {
+        width: 240px;
+        margin: 0 auto;
+    }
 }
