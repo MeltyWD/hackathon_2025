@@ -1,0 +1,8 @@
+.account__item {
+  background: rgba(0, 0, 0, 0.15);
+  height: 72px;
+  width: 336px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
