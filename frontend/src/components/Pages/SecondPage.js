@@ -4,6 +4,7 @@ import PageQuestion from '../contents/PageQuestion'
 function SecondPage(props) {
 
   function handleClickBack() {
+    props.selectedCategory('')
     props.onClickPageChange(1)
   }
 

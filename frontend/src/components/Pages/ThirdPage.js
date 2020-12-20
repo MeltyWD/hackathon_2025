@@ -4,6 +4,7 @@ import PageQuestion from '../contents/PageQuestion'
 function ThirdPage(props) {
 
   function handleClickBack() {
+    props.selectedCategory('')
     props.onClickPageChange(2)
   }
 
