@@ -1,0 +1,7 @@
+.initiative__box {
+  margin-right: 70px;
+}
+
+.initiative__box:nth-child(2) {
+  margin-right: 0;
+}

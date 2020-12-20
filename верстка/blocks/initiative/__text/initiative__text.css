@@ -1,0 +1,10 @@
+.initiative__text {
+  padding: 10px 20px;
+  background: rgba(0, 0, 0, 0.15);
+  box-sizing: border-box;
+  width: 288px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 16px 0 10px;
+}
