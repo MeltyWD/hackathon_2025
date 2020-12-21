@@ -1,0 +1,6 @@
+.variant__textbox {
+  max-height: 100px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}

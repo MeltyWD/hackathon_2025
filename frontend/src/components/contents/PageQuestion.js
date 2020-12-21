@@ -18,7 +18,8 @@ function PageQuestion(props) {
             key={index}
             categoryNumber={index + 1}
             selected={selectCategory}
-            text={category}
+            text={category.text}
+            search={category.search}
             onClickSelect={handleClickCategory}
           />
         )}
