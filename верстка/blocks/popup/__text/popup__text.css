@@ -13,5 +13,6 @@
     .popup__text {
         width: 240px;
         margin: 0 auto 57px;
+        font-size: 14px;
     }
 }

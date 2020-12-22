@@ -2,3 +2,9 @@
   display: flex;
   justify-content: space-between;
 }
+
+@media screen and (max-width: 425px) {
+  .account__options {
+    flex-direction: column;
+  }
+}

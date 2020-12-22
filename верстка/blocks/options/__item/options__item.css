@@ -5,3 +5,7 @@
   justify-content: center;
   align-items: center;
 }
+
+.options__item:hover {
+  cursor: pointer;
+}

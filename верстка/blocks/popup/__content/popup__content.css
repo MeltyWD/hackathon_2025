@@ -10,6 +10,7 @@
 @media screen and (max-width: 425px) {
     .popup__content {
         width: 100%;
+        height: 60vh;
         padding: 68px 0px 34px 0px;
     }
 }
