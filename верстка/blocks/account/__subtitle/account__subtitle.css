@@ -9,5 +9,11 @@
 .account__subtitle:nth-child(3) {
   margin-top: 0;
   font-weight: 700;
-  margin-bottom: 44px;
+  margin-bottom: 14px;
+}
+
+@media screen and (max-width: 425px) {
+  .account__subtitle {
+    font-size: 14px;
+  }
 }

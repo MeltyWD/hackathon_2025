@@ -4,14 +4,16 @@
     height: 100%;
     top: 0;
     left: 0;
-    background: rgba(229, 229, 229, 0.95);
+    background: rgba(196, 196, 196, 0.95);
     justify-content: center;
     align-items: center;
     transition: .5s;
-    display: flex;
+    display: none;
     z-index: 9999;
 }
 
 @media screen and (max-width: 425px) {
-    .popup {}
+    .popup {
+      
+    }
 }

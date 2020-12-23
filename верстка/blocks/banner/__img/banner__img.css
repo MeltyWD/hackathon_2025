@@ -10,13 +10,10 @@
 
 @media screen and (max-width: 425px) {
     .banner__img {
-        width: 80%;
-        filter: grayscale(100);
-        margin: 0 auto;
+        width: 320px;
         top: 100%;
         right: 50%;
         transform: translate(50%);
-        background-color: rgb(199, 199, 199);
         padding: 10px;
         border-radius: 16px;
     }

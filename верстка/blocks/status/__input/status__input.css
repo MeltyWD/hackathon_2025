@@ -5,4 +5,11 @@
   width: 288px;
   margin-bottom: 32px;
   color: rgba(0, 0, 0, 0.3);
+  border: 0;
+}
+
+@media screen and (max-width: 425px) {
+  .status__input {
+    width: 100%;
+  }
 }

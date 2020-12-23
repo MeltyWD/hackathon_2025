@@ -3,3 +3,9 @@
     justify-content: space-between;
     width: 100%;
 }
+
+@media screen and (max-width: 425px) {
+    .variant__buttons {
+        justify-content: space-around;
+    }
+}

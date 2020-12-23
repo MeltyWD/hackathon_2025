@@ -12,8 +12,7 @@
 
 @media screen and (max-width: 425px) {
     .button.variant__button {
-        background-image: url(../../../images/bx_bx-add-to-queue.svg);
-        top: 121px;
-        right: 9px;
+        top: 18px;
+        right: 27px;
     }
 }

@@ -10,6 +10,6 @@
 
 @media screen and (max-width: 425px) {
     .button_options.page-link {
-        margin: 20px auto;
+        display: none;
     }
 }
