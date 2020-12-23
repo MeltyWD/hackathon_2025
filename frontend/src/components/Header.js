@@ -4,7 +4,7 @@ function Header(props) {
   return (
     <header className="header">
       <div className="header__container content">
-        <Link className="page-link" to="index.html"
+        <Link className="page-link" to="/"
           ><h2 className="logo">Письма</h2>
           <span className="logo__span">к тётеньке</span>
         </Link>

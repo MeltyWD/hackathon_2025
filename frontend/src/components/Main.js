@@ -27,10 +27,10 @@ function Main(props) {
   }
 
   React.useEffect(() => {
-    if (selectCategoryOne === '') {
+    if (selectCategoryThree === '') {
       return
     } else {
-      fetch(`http://buymebuyme.xyz?q=${selectCategoryOne}`, {
+      fetch(`https://hackathon2025.herokuapp.com/poems/${selectCategoryOne}/${selectCategoryTwo}/${selectCategoryThree}`, {
       method: 'GET'
       })
       .then((res) => {
@@ -38,12 +38,11 @@ function Main(props) {
       })
       .then(res => {
         setPoemList(res)
-        console.log(res)
       })
       .catch((err) => console.log(err))
     }
     
-  },[selectCategoryOne])
+  },[selectCategoryThree])
 
   return (
     <main>
