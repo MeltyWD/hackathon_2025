@@ -60,10 +60,13 @@
 @import url(../blocks/initiative/__span/initiative__span.css);
 @import url(../blocks/initiative/__title/initiative__title.css);
 @import url(../blocks/initiative/__subtitle/initiative__subtitle.css);
+<<<<<<< HEAD
 @import url(../blocks//initiative/__star/initiative__star.css);
 @import url(../blocks/initiative/__emoji/initiative__emoji.css);
 @import url(../blocks/initiative/__new/initiative__new.css);
 @import url(../blocks/status/status.css);
+=======
+>>>>>>> origin/dev
 @import url(../blocks/status/__input/status__input.css);
 @import url(../blocks/status/__button/status__button.css);
 @import url(../blocks/status/__label/status__label.css);

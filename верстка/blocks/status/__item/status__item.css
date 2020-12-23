@@ -7,6 +7,7 @@
 .status__item:last-child {
   margin-bottom: 0;
 }
+<<<<<<< HEAD
 
 @media screen and (max-width: 425px) {
   .status__item {
@@ -15,3 +16,5 @@
     line-height: 20px;
   }
 }
+=======
+>>>>>>> origin/dev

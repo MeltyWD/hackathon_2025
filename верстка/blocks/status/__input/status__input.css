@@ -5,6 +5,7 @@
   width: 288px;
   margin-bottom: 32px;
   color: rgba(0, 0, 0, 0.3);
+<<<<<<< HEAD
   border: 0;
 }
 
@@ -12,4 +13,6 @@
   .status__input {
     width: 100%;
   }
+=======
+>>>>>>> origin/dev
 }

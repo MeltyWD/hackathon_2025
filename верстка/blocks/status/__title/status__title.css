@@ -4,6 +4,7 @@
   font-size: 24px;
   line-height: 32px;
 }
+<<<<<<< HEAD
 
 @media screen and (max-width: 425px) {
   .status__title {
@@ -12,3 +13,5 @@
     line-height: 20px;
   }
 }
+=======
+>>>>>>> origin/dev

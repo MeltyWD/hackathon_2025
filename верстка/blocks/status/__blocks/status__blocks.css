@@ -3,6 +3,7 @@
   max-width: 312px;
   overflow-y: scroll;
   margin-right: 216px;
+<<<<<<< HEAD
 }
 
 @media screen and (max-width: 425px) {
@@ -12,4 +13,6 @@
     overflow-y:auto;
     margin-right: 0px;
   }
+=======
+>>>>>>> origin/dev
 }
