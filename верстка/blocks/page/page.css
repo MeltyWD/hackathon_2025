@@ -4,6 +4,6 @@
 }
 
 * {
-    outline: 1px solid rgb(0, 132, 255);
+    /* outline: 1px solid rgb(0, 132, 255); */
     box-sizing: border-box;
 }
