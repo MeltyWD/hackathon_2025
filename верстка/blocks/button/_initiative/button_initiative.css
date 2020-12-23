@@ -1,0 +1,11 @@
+.button_initiative {
+    margin-top: 58px;
+    margin-bottom: 75px;
+    padding: 10px 70px;
+}
+
+@media screen and (max-width: 425px) {
+  .button_initiative {
+    display: none;
+  }
+}

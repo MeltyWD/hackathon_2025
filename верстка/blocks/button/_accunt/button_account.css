@@ -1,0 +1,11 @@
+.button_account {
+  padding: 10px 70px;
+  margin-top: 112px;
+  margin-bottom: 72px;
+}
+
+@media screen and (max-width: 425px) {
+  .button_account {
+    display: none;
+  }
+}

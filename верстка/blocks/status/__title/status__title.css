@@ -1,0 +1,14 @@
+.status__title {
+  margin: 0;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+@media screen and (max-width: 425px) {
+  .status__title {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+  }
+}

@@ -1,0 +1,5 @@
+@media screen and (max-width: 425px) {
+    .initiative__new {
+        display: none;
+    }
+}

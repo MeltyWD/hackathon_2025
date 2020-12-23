@@ -1,5 +1,9 @@
 .page {
-  font-family: 'Roboto', sans-serif;
-  background: #E5E5E5;
-  color: #000000;
+    font-family: 'Roboto', sans-serif;
+    color: #000000;
+}
+
+* {
+    outline: 1px solid rgb(0, 132, 255);
+    box-sizing: border-box;
 }

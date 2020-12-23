@@ -5,10 +5,21 @@
   outline: none;
   border: none;
   cursor: pointer;
-  background-size: cover;
-  background-image: url(../../../../images/user.svg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-image: url(../../../images/user.svg);
 }
 
 .header__icon:first-child {
   margin-right: 15px;
+}
+
+@media screen and (max-width: 425px) {
+  .header__icon {
+    width: 36px;
+    height: 24px;
+    position: absolute;
+    top: -6px;
+    right: -6px;
+  }
 }

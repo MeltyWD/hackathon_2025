@@ -1,0 +1,10 @@
+.contacts__form {
+  display: flex;
+}
+
+@media screen and (max-width: 425px) {
+  .contacts__form {
+    flex-direction: column;
+    /* align-items: center; */
+  }
+}

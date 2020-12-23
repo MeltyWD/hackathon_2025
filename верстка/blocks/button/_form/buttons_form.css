@@ -1,6 +1,15 @@
 .button_form {
-  padding: 10px 0 10px 0;
-  width: 192px;
-  display: flex;
-  justify-content: center;
+    padding: 10px 0 10px 0;
+    width: 192px;
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 425px) {
+    .button_form {
+        width: 120px;
+        font-size: 14px;
+        line-height: 20px;
+        margin-bottom: 20px;
+    }
 }

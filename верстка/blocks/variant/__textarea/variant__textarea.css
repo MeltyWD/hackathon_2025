@@ -6,4 +6,12 @@
   font-size: 16px;
   height: 120px;
   margin-bottom: 24px;
+  padding-left: 19px;
+}
+
+@media screen and (max-width: 425px) {
+  .variant__textarea {
+    height: 50px;
+    vertical-align: bottom;
+  }
 }

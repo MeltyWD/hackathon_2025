@@ -1,0 +1,16 @@
+.contacts__textarea {
+  border: 1px solid #000000;
+  color: #000000;
+  background: #fff;
+  font-size: 16px;
+  line-height: 48px;
+  width: 480px;
+}
+
+@media screen and (max-width: 425px) {
+  .contacts__textarea {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+  }
+}

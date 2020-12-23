@@ -1,0 +1,11 @@
+.contacts__box {
+  max-width: 480px;
+  margin-right: 48px;
+}
+
+@media screen and (max-width: 425px) {
+  .contacts__box {
+    max-width: 84%;
+    margin: 0 auto;
+  }
+}

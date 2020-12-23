@@ -1,3 +1,11 @@
 .description__arrow {
-  height: 24px;
+    height: 24px;
+}
+
+@media screen and (max-width: 425px) {
+    .description__arrow {
+        transform: rotate(90deg);
+        height: 10px;
+        margin: 6px;
+    }
 }

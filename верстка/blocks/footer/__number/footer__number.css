@@ -1,11 +1,18 @@
 .footer__number {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 36px;
-  line-height: 42px;
-  margin: 0;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 42px;
+    margin: 0;
+    text-align: center;
 }
 
 .footer__number:first-child {
-  margin-bottom: 18px;
+    margin-bottom: 18px;
+}
+
+@media screen and (max-width: 425px) {
+    .footer__number {
+        display: none;
+    }
 }
