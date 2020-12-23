@@ -1,0 +1,6 @@
+.status__blocks {
+  max-height: 288px;
+  max-width: 312px;
+  overflow-y: scroll;
+  margin-right: 216px;
+}
