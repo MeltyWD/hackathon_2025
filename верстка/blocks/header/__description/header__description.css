@@ -1,18 +1,18 @@
 .header__description {
-    margin: 0;
-    font-weight: 500;
-    font-size: 28px;
-    line-height: 33px;
-    z-index: 2;
+  margin: 0;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 33px;
+  z-index: 2;
 }
 
 @media screen and (max-width: 425px) {
-    .header__description {
-        max-width: 147px;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 19px;
-        text-align: right;
-        align-self: flex-end;
-    }
+  .header__description {
+    max-width: 140px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 19px;
+    text-align: right;
+    align-self: flex-end;
+  }
 }

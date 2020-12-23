@@ -6,3 +6,11 @@
   line-height: 48px;
   width: 480px;
 }
+
+@media screen and (max-width: 425px) {
+  .contacts__textarea {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+  }
+}

@@ -1,3 +1,10 @@
 .variant__label {
   position: relative;
 }
+
+@media screen and (max-width: 425px) {
+  .variant__label {
+    width: 84%;
+    margin: 0 auto;
+  }
+}

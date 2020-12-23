@@ -1,25 +1,25 @@
 .header__icon {
-    height: 26px;
-    width: 33px;
-    background-color: transparent;
-    outline: none;
-    border: none;
-    cursor: pointer;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-image: url(../../../images/user.svg);
+  height: 26px;
+  width: 33px;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-image: url(../../../images/user.svg);
 }
 
 .header__icon:first-child {
-    margin-right: 15px;
+  margin-right: 15px;
 }
 
 @media screen and (max-width: 425px) {
-    .header__icon {
-        width: 36px;
-        height: 24px;
-        position: absolute;
-        top: -6px;
-        right: -6px;
-    }
+  .header__icon {
+    width: 36px;
+    height: 24px;
+    position: absolute;
+    top: -6px;
+    right: -6px;
+  }
 }

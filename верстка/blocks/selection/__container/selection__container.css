@@ -2,3 +2,12 @@
   display: flex;
   justify-content: space-between;
 }
+
+@media screen and (max-width: 425px) {
+  .selection__container {
+    width: 84%;
+  }
+  .selection__container .description_size_small {
+    display: none;
+  }
+}

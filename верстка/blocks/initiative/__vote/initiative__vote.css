@@ -4,3 +4,14 @@
   text-align: end;
   margin: 9px 20px 0 0px;
 }
+
+
+@media screen and (max-width: 425px) {
+  .initiative__vote {
+    margin: 0;
+    position: absolute;
+    right: 32px;
+    top: 2;
+    flex-direction: row;
+  }
+}

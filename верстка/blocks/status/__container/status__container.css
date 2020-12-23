@@ -1,3 +1,9 @@
 .status__container {
   display: flex;
 }
+
+@media screen and (max-width: 425px) {
+  .status__container {
+    flex-direction: column;
+  }
+}
