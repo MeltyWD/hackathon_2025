@@ -1,13 +1,9 @@
 .logo__icon {
-    width: 59px;
+    width: 68px;
     height: 64px;
-    position: absolute;
-    top: 20%;
-    right: -25%;
     background-repeat: no-repeat;
     background-size: cover;
     z-index: 1;
-    filter: grayscale(100);
 }
 
 @media screen and (max-width: 425px) {

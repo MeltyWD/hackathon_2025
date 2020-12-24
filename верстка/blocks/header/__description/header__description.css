@@ -1,9 +1,13 @@
 .header__description {
   margin: 0;
-  font-weight: 500;
-  font-size: 28px;
-  line-height: 33px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
   z-index: 2;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 @media screen and (max-width: 425px) {
