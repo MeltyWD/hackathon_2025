@@ -4,6 +4,7 @@
   max-width: 365px;
   margin-top: 25px;
   margin-bottom: 0;
+  color: white;
 }
 
 .account__subtitle:nth-child(3) {
