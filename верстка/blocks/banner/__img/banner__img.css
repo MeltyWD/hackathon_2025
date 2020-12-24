@@ -1,11 +1,8 @@
 .banner__img {
-    width: 90%;
-    filter: grayscale(100);
-    margin: 0 auto;
+    width:426px;
     position: absolute;
-    width: 430px;
-    top: -40px;
-    right: 23px;
+    right: 0;
+    top: 16px;
 }
 
 @media screen and (max-width: 425px) {

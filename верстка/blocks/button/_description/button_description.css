@@ -1,6 +1,8 @@
 .button_description {
-  padding: 20px 80px;
-  margin: 56px auto 96px auto;
+  background-color: var(--color9);
+  padding: 12px 0px;
+  margin: 80px auto;
+  width: 240px;
 }
 
 @media screen and (max-width: 425px) {

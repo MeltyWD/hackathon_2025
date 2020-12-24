@@ -1,3 +1,5 @@
 .footer {
-  background: rgba(0, 0, 0, 0.15);
+  background: var(--color1);
+  z-index: 99;
+  width: 100%;
 }

@@ -1,8 +1,10 @@
 .header {
-  background: rgba(0, 0, 0, 0.15);
-  height: 96px;
+  background: var(--color2);
+  color: var(--color13);
+  height: 80px;
   display: flex;
   align-items: center;
+  z-index: 99;
 }
 
 @media screen and (max-width: 425px) {

@@ -1,3 +1,4 @@
-.footer__about:first-child {
-  margin-right: 31px;
+.footer__about{
+  display: flex;
+  align-items: center;
 }
