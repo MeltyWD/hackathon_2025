@@ -1,6 +1,7 @@
 .banner {
     position: relative;
     display: flex;
+    z-index: 99;
 }
 
 @media screen and (max-width: 425px) {
