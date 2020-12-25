@@ -4,7 +4,7 @@
     height: 100%;
     top: 0;
     left: 0;
-    background: rgba(196, 196, 196, 0.95);
+    background-color: #211f2eea;
     justify-content: center;
     align-items: center;
     transition: .5s;

@@ -1,3 +1,11 @@
+.initiative__new > .initiative__item > .initiative__text > .initiative__title {
+    margin-left: 26px;
+}
+
+.initiative__new > .initiative__item > .initiative__text > .initiative__subtitle {
+    margin-left: 26px;
+}
+
 @media screen and (max-width: 425px) {
     .initiative__new {
         display: none;

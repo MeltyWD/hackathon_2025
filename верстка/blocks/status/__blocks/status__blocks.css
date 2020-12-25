@@ -1,8 +1,10 @@
 .status__blocks {
   max-height: 416px;
-  max-width: 420px;
+  max-width: 460px;
   overflow-y: scroll;
   margin-right: 40px;
+  display: flex;
+  flex-direction: column;
 }
 
 .status__blocks::-webkit-scrollbar {

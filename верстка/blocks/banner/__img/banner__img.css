@@ -1,8 +1,5 @@
 .banner__img {
-    width:426px;
-    position: absolute;
-    right: 0;
-    top: 16px;
+    width: 410px;
 }
 
 @media screen and (max-width: 425px) {

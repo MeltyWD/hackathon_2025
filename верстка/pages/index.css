@@ -83,6 +83,7 @@
 @import url(../blocks/variant/__input/_contacts/variant__input_contacts.css);
 @import url(../blocks/variant/__textarea/variant__textarea.css);
 @import url(../blocks/button/_variant/button_variant.css);
+@import url(../blocks/variants/__buttons/variants__buttons.css);
 
 /* Экриан с рейтингом инициатив */
 @import url(../blocks/initiative/initiative.css);
@@ -132,6 +133,7 @@
 @import url(../blocks/popup/__content/popup__content.css);
 @import url(../blocks/popup/__text/popup__text.css);
 @import url(../blocks/button/_popup/button_popup.css);
+@import url(../blocks/popup/__initiative/popup__initiative.css);
 
 /* Форма с контактами */
 @import url(../blocks/contacts/__form/contacts__form.css);
@@ -149,6 +151,15 @@
 @import url(../blocks/account/__item/account__item.css);
 @import url(../blocks/account/__notification/account__notification.css);
 @import url(../blocks/button/_accunt/button_account.css);
+
+/* О сервисе */
+@import url(../blocks/about/__content/about__content.css);
+@import url(../blocks/about/__paragraph/about__paragraph.css);
+@import url(../blocks/about/__picture/about__picture.css);
+@import url(../blocks/about/__subtitle/about__subtitle.css);
+@import url(../blocks/about/__text/about__text.css);
+@import url(../blocks/about/__title/about__title.css);
+@import url(../blocks/button/_about/buttom_about.css);
 
 /* Футер */
 @import url(../blocks/footer/footer.css);

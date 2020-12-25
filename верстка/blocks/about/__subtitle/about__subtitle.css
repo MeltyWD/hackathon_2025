@@ -1,0 +1,9 @@
+.about__subtitle {
+    width: 288px;
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 12px;
+    color: var(--color4);
+    padding: 30px 0 39px;
+    margin: 0;
+}

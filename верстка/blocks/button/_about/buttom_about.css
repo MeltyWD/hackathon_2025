@@ -1,0 +1,8 @@
+.buttom_about {
+    width: 160px;
+    min-height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color9);
+}

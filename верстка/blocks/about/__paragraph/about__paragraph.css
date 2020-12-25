@@ -1,0 +1,9 @@
+.about__paragraph {
+    width: 430px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--color7);
+    padding: 39px 0 48px;
+    margin: 0;
+}
