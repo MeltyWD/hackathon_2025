@@ -1,7 +1,14 @@
 .status__item {
-  font-size: 16px;
-  line-height: 24px;
-  margin-bottom: 20px;
+  font-size: 9px;
+  line-height: 12px;
+  width: 89px;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: var(--color3);
+  color: var(--color6);
 }
 
 .status__item:last-child {

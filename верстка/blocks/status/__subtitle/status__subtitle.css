@@ -1,9 +1,11 @@
 .status__subtitle {
   margin: 0;
-  font-family: Pacifico;
+  font-family: Oswald;
+  font-weight: 500;
   font-size: 16px;
   line-height: 20px;
-  margin-bottom: 37px;
+  margin-bottom: 28px;
+  color: var(--color8);
 }
 
 @media screen and (max-width: 425px) {

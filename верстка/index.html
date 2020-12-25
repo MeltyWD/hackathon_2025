@@ -23,7 +23,8 @@
           <img class="logo__icon" src="./images/logo.svg" alt="" />
         </a>
         <h1 class="header__description">Портал гражданских инициатив</h1>
-        <button class="header__icon header__icon_type_profile page-link"></button>
+        <button class="header__icon header__icon_type_profile page-link"><span
+            class="logo__notification">2</span></button>
       </div>
     </header>
 
@@ -73,9 +74,9 @@
           <div class="selection__container">
             <div class="selection__text">
               <p class="selections__decision">Давайте начнём</p>
-              <p class="selections__question">Где находится объект?</p>
+              <p class="selections__question">Где нужно участие?</p>
             </div>
-            <div class="description description_size_small">
+            <!-- <div class="description description_size_small">
               <h1 class="description__title description__title_size_small">
                 Как это работает
               </h1>
@@ -120,7 +121,7 @@
                 Статус инициативы Вы можете отследить в своем Кабинете,
                 который доступен после регистрации на Портале.
               </p>
-            </div>
+            </div> -->
           </div>
         </section>
 
@@ -157,15 +158,8 @@
             </p>
             <p class="variant__text">А.Блок</p>
             <button class="button variant__button page-link"></button>
-            <button class="button button_variant page-link">Годно, беру</button>
-          </article>
-          <article class="variant">
-            <p class="variant__text">Ночь, улица, фонарь, аптека, Бессмысленный и тусклый свет. Живи ещё хоть четверть
-              века – Всё будет так. Исхода нет.
-            </p>
-            <p class="variant__text">А.Блок</p>
-            <button class="button variant__button page-link"></button>
-            <button class="button button_variant page-link">Годно, беру</button>
+            <button class="button variant__button variant__button_add page-link"></button>
+            <button class="button variant__button variant__button_view page-link"></button>
           </article>
         </div>
         <button class="button button_options page-link">Назад</button>
@@ -178,7 +172,7 @@
               века – Всё будет так. Исхода нет.
             </p>
             <p class="variant__text">А.Блок</p>
-            <button class="button variant__button page-link"></button>
+            <button class="button variant__button variant__button_view page-link"></button>
           </article>
           <form class="variant__form">
             <label class="variant__label">
@@ -190,7 +184,7 @@
                 required></textarea></label>
             <div class="variant__buttons">
               <button class="button button_form page-link" type="submit">Отправить</button>
-              <button class="button button_form page-link">Ой, ну его нафиг...</button>
+              <button class="button button_form page-link">Нет, я не готов</button>
             </div>
           </form>
         </div>
@@ -205,8 +199,8 @@
             <input class="variant__input" type="text" placeholder="Пароль" required></label>
           <label class="variant__label">
             <div class="variant__buttons">
-              <button class="button button_form page-link" type="submit">Войти уже, ну!</button>
-              <button class="button button_form page-link">Ну его нафиг...</button>
+              <button class="button button_form page-link" type="submit">Войти</button>
+              <button class="button button_form page-link">В другой раз</button>
             </div>
         </form>
       </section>
@@ -219,6 +213,7 @@
           <a class="page-link" href="#">
             <div class="account__item">
               <p class="account__text">Посмотреть статус инициатив</p>
+              <span class="account__notification">2</span>
             </div>
           </a>
           <a class="page-link" href="#">
@@ -236,8 +231,8 @@
       </section>
 
       <section class="status content">
-        <label class="status__label"><input type="text" class="status__input" placeholder="Введите рег. номер"><button
-            class="status__button page-link"></button></label>
+        <label class="status__label"><input type="text" class="status__input"
+            placeholder="Введите регистрационный номер"><button class="status__button page-link"></button></label>
         <div class="status__container">
           <div class="status__blocks">
             <div class="status__block">
@@ -247,17 +242,29 @@
             <div class="status__block">
               <h4 class="status__string">“Октябрь – месяц грусти и...”</h4>
               <p class="status__number">Инициатива И141220Н00153 от 14.12.2020 г.</p>
-              <button class="status__close page-link"></button>
+              <span class="status__indicator status__indicator_red"></span>
             </div>
-            <div class="status__block">
+            <div class="status__block active">
               <h4 class="status__string">“Ночь, улица, фонарь, аптека”</h4>
               <p class="status__number">Инициатива И141220Н00148 от 14.12.2020 г.</p>
-              <button class="status__close page-link"></button>
+              <span class="status__indicator"></span>
             </div>
             <div class="status__block">
               <h4 class="status__string">“Вчера был день разлуки шумной”</h4>
               <p class="status__number">Инициатива И141220Н00201 от 14.12.2020 г.</p>
-              <button class="status__close page-link"></button>
+              <span class="status__indicator"></span>
+            </div>
+            <div class="status__block">
+              <h4 class="status__string">“Вчера был день разлуки шумной”</h4>
+              <p class="status__number">Инициатива И141220Н00201 от 14.12.2020 г.</p>
+            </div>
+            <div class="status__block">
+              <h4 class="status__string">“Вчера был день разлуки шумной”</h4>
+              <p class="status__number">Инициатива И141220Н00201 от 14.12.2020 г.</p>
+            </div>
+            <div class="status__block">
+              <h4 class="status__string">“Вчера был день разлуки шумной”</h4>
+              <p class="status__number">Инициатива И141220Н00201 от 14.12.2020 г.</p>
             </div>
             <div class="status__block">
               <h4 class="status__string">“Вчера был день разлуки шумной”</h4>
@@ -268,12 +275,13 @@
             <h2 class="status__title">Статус инициативы И141220Н00148</h2>
             <p class="status__subtitle">“Ночь, улица, фонарь, аптека”</p>
             <ul class="status__list">
-              <li class="status__item">1. Отправка инициативы</li>
-              <li class="status__item">2. Рассмотрение инициативы</li>
-              <li class="status__item status__item_color_red">3. Оценка реализации</li>
-              <li class="status__item status__item_color_grey">4. Утверждение в работу</li>
-              <li class="status__item status__item_color_grey">5. Реализация инициативы</li>
-              <li class="status__item status__item_color_grey">6. Отчет гос. органов</li>
+              <li class="status__item status__item_color_wheat">Инициатива</li>
+              <span class="status__arrow status__arrow_color_wheat"></span>
+              <li class="status__item status__item_color_yellow">Рассмотрение</li>
+              <span class="status__arrow status__arrow_color_yellow"></span>
+              <li class="status__item">Исполнение</li>
+              <span class="status__arrow"></span>
+              <li class="status__item">Отчет</li>
             </ul>
           </div>
         </div>
@@ -285,64 +293,49 @@
           <div class="initiative__box">
             <h2 class="initiative__info">Топ инициатив</h2>
             <div class="initiative__item">
-              <img src="./images/star.svg" alt="звезда" class="initiative__star">
               <div class="initiative__text">
+                <p class="initative__numbers"><span class="initiative__span"></span>160000</p>
+                <span class="initiative__number">1</span>
                 <h4 class="initiative__title">“Вчера был день разлуки шумной”</h4>
                 <p class="initiative__subtitle">Инициатива И141220Н00201 от 14.12.2020 г.</p>
+                <span class="initiative__like initiative__like_red"></span>
               </div>
-              <div class="initiative__vote">
-                <p class="initative__numbers">160000</p>
-                <span class="initiative__span">голосов</span>
-              </div>
-              <img src="./images/Like.svg" alt="смайлик" class="initiative__emoji">
             </div>
             <div class="initiative__item">
-              <img src="./images/4 star.svg" alt="звезда" class="initiative__star">
               <div class="initiative__text">
+                <span class="initiative__number">2</span>
                 <h4 class="initiative__title">“Октябрь – месяц грусти и...”</h4>
                 <p class="initiative__subtitle">Инициатива И141220Н00202 от 14.12.2020 г.</p>
               </div>
-              <div class="initiative__vote">
-                <p class="initative__numbers">100000</p>
-                <span class="initiative__span">голосов</span>
-              </div>
-              <img src="./images/Like.svg" alt="смайлик" class="initiative__emoji">
+              <p class="initative__numbers"><span class="initiative__span"></span>160000</p>
+              <span class="initiative__like initiative__like_red"></span>
             </div>
             <div class="initiative__item">
-              <img src="./images/3 star.svg" alt="звезда" class="initiative__star">
               <div class="initiative__text">
+                <span class="initiative__number">3</span>
                 <h4 class="initiative__title">“Ночь, улица, фонарь, аптека”</h4>
                 <p class="initiative__subtitle">Инициатива И141220Н00203 от 14.12.2020 г.</p>
               </div>
-              <div class="initiative__vote">
-                <p class="initative__numbers">50000</p>
-                <span class="initiative__span">голосов</span>
-              </div>
-              <img src="./images/Like.svg" alt="смайлик" class="initiative__emoji">
+              <p class="initative__numbers"><span class="initiative__span"></span>160000</p>
+              <span class="initiative__like initiative__like_dark"></span>
             </div>
             <div class="initiative__item">
-              <img src="./images/1 star.svg" alt="звезда" class="initiative__star">
               <div class="initiative__text">
+                <span class="initiative__number">4</span>
                 <h4 class="initiative__title">“Октябрь – месяц грусти и...”</h4>
                 <p class="initiative__subtitle">Инициатива И141220Н00204 от 14.12.2020 г.</p>
               </div>
-              <div class="initiative__vote">
-                <p class="initative__numbers">30000</p>
-                <span class="initiative__span">голосов</span>
-              </div>
-              <img src="./images/Dislike.svg" alt="смайлик" class="initiative__emoji">
+              <p class="initative__numbers"><span class="initiative__span"></span>160000</p>
+              <span class="initiative__like initiative__like_dark"></span>
             </div>
             <div class="initiative__item">
-              <img src="./images/1 star.svg" alt="звезда" class="initiative__star">
               <div class="initiative__text">
+                <span class="initiative__number">5</span>
                 <h4 class="initiative__title">“Ночь, улица, фонарь, аптека”</h4>
                 <p class="initiative__subtitle">Инициатива И141220Н00205 от 14.12.2020 г.</p>
               </div>
-              <div class="initiative__vote">
-                <p class="initative__numbers">29000</p>
-                <span class="initiative__span">голосов</span>
-              </div>
-              <img src="./images/Dislike.svg" alt="смайлик" class="initiative__emoji">
+              <p class="initative__numbers"><span class="initiative__span"></span>160000</p>
+              <span class="initiative__like initiative__like_dark"></span>
             </div>
             <button class="button initiative__button page-link">Посмотреть все</button>
           </div>
@@ -397,20 +390,27 @@
               <input class="variant__input variant__input_contacts" type="tel" placeholder="Телефон" required /><button
                 class="contacts__button page-link"></button></label>
             <div class="variant__buttons">
-              <button class="button button_form page-link" type="submit">
+            </div>
+          </div>
+          <div>
+            <label class="variant__label">
+              <textarea class="contacts__textarea" type="text" placeholder="Адрес" required></textarea>
+              <button
+                class="contacts__button contacts__button_textarea page-link"></button>
+              </label>
+            <div class="contacts__box"> <button class="button button_form page-link" type="submit">
                 Сохранить
               </button>
               <button class="button button_form page-link">
-                Ну его нафиг...
+                Нет, я не готов
               </button>
             </div>
+
           </div>
-          <label class="variant__label">
-            <textarea class="contacts__textarea" type="text" placeholder="Адрес" required></textarea><button
-              class="contacts__button contacts__button_textarea page-link"></button></label>
         </form>
         <button class="button button_options page-link">В кабинет</button>
       </section>
+
 
     </main>
 
@@ -436,6 +436,8 @@
         <button class="button button_popup page-link">Ура!</button>
       </div>
     </div>
+
+    <div class="background"></div>
 
     <!-- <div class="background-top">
       <svg width="100%" height="600" viewBox="0 0 1440 600" fill="none" xmlns="http://www.w3.org/2000/svg">

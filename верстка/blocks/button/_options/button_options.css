@@ -1,10 +1,12 @@
 .button_options {
-    margin-top: 224px;
+    margin-top: 112px;
     padding: 10px 70px;
+    background: var(--color11);
+    color: white;
 }
 
 .button_options:nth-child(2) {
-    margin-top: 289px;
+    margin-top: 112px;
     margin-bottom: 72px;
 }
 

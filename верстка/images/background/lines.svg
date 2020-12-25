@@ -1,0 +1,22 @@
+<svg width="1440" height="1024" viewBox="0 0 1440 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g style="mix-blend-mode:multiply" opacity="0.55">
+<path d="M0 0H1440V653L877.5 780L0 663V0Z" fill="#504C67"/>
+</g>
+<g style="mix-blend-mode:multiply" opacity="0.55">
+<path d="M0 0H1440V552.5L814.5 755L0 552.5V0Z" fill="#37334D"/>
+</g>
+<g style="mix-blend-mode:multiply" opacity="0.55">
+<path d="M0 0H1440V698L937 753.5L0 485.5V0Z" fill="#211F2E"/>
+</g>
+<g opacity="0.3">
+<g style="mix-blend-mode:multiply" opacity="0.55">
+<path d="M1440 1624L0 1624L5.70871e-05 971L562.5 844L1440 961L1440 1624Z" fill="#504C67"/>
+</g>
+<g style="mix-blend-mode:multiply" opacity="0.55">
+<path d="M1440 1624L0 1624L4.83011e-05 1071.5L625.5 869L1440 1071.5L1440 1624Z" fill="#37334D"/>
+</g>
+<g style="mix-blend-mode:multiply" opacity="0.55">
+<path d="M1440 1624L0 1624L6.10211e-05 926L503 870.5L1440 1138.5L1440 1624Z" fill="#211F2E"/>
+</g>
+</g>
+</svg>

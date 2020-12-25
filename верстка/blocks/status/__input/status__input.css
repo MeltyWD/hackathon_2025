@@ -1,11 +1,16 @@
 .status__input {
   font-size: 16px;
   line-height: 48px;
-  background: #E5E5E5;
-  width: 288px;
+  color: var(--color8);
+  background-color: var(--color3);
+  width: 440px;
   margin-bottom: 32px;
-  color: rgba(0, 0, 0, 0.3);
   border: 0;
+  padding-left: 19px;
+}
+
+.status__input::placeholder {
+  color: var(--color8);
 }
 
 @media screen and (max-width: 425px) {

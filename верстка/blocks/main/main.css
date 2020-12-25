@@ -1,5 +1,6 @@
 .main {
-    background-color: var(--color8);
+    /* background-color: var(--color8); */
     display: flex;
     flex-direction: column;
+    z-index: 99;
 }

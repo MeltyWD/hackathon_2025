@@ -1,9 +1,37 @@
 .variants__container {
-    display: flex;
+ display: flex;
+ flex-wrap: wrap;
+ max-height: 440px;
+ overflow-y: scroll;
+ /* max-width: 1000px; */
+ /* background-color: red; */
+}
+
+.variants__container::-webkit-scrollbar {
+ width: 8px;
+}
+.variants__container::-webkit-scrollbar-button {
+    display: none;
+}
+.variants__container::-webkit-scrollbar-track {
+  display: none;
+}
+.variants__container::-webkit-scrollbar-track-piece {
+ background-color: var(--color6);
+}
+.variants__container::-webkit-scrollbar-thumb {
+ height: 40px;
+ background-color: var(--color4);
+}
+.variants__container::-webkit-scrollbar-corner {
+ display: none;
+}
+.variants__container::-webkit-resizer {
+ display: none;
 }
 
 @media screen and (max-width: 425px) {
-    .variants__container {
-        flex-direction: column;
-    }
+ .variants__container {
+  flex-direction: column;
+ }
 }
