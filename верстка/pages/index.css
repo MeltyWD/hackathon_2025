@@ -66,6 +66,12 @@
 
 /* Экран с выводом всех цитат по запросу и форма */
 @import url(../blocks/form/form.css);
+@import url(../blocks/form/__socials/form__socials.css);
+@import url(../blocks/form/__button/form__button.css);
+@import url(../blocks/form/__icon/form__icon.css);
+@import url(../blocks/form/__label/form__label.css);
+@import url(../blocks/form/__input/form__input.css);
+@import url(../blocks/form/__span/form__span.css);
 @import url(../blocks/button/_form/buttons_form.css);
 
 @import url(../blocks/variants/__container/__container/variants__container.css);
@@ -98,7 +104,7 @@
 @import url(../blocks/initiative/__span/initiative__span.css);
 @import url(../blocks/initiative/__title/initiative__title.css);
 @import url(../blocks/initiative/__subtitle/initiative__subtitle.css);
-@import url(../blocks//initiative/__star/initiative__star.css);
+@import url(../blocks/initiative/__star/initiative__star.css);
 @import url(../blocks/initiative/__emoji/initiative__emoji.css);
 @import url(../blocks/initiative/__new/initiative__new.css);
 @import url(../blocks/initiative/__number/initiative__number.css);
