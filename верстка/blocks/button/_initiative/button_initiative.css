@@ -6,8 +6,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--color11);
-    color: var(--color13)
+    background-color: var(--blue);
+    color: var(--white)
 }
 
 @media screen and (max-width: 425px) {

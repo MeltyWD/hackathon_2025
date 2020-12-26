@@ -17,11 +17,11 @@
    display: none;
  }
  .status__blocks::-webkit-scrollbar-track-piece {
-  background-color: var(--color6);
+  background-color: var(--lightgray2);
  }
  .status__blocks::-webkit-scrollbar-thumb {
   height: 40px;
-  background-color: var(--color4);
+  background-color: var(--darkgray4);
  }
  .status__blocks::-webkit-scrollbar-corner {
   display: none;

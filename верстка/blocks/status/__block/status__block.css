@@ -1,5 +1,5 @@
 .status__block {
-  background-color: var(--color6);
+  background-color: var(--lightgray2);
   padding: 10px 20px;
   position: relative;
   width: 440px;
@@ -16,7 +16,7 @@
 }
 
 .status__block:hover {
-  background-color: var(--color3);
-  color: var(--color13);
+  background-color: var(--darkgray3);
+  color: var(--white);
   cursor: pointer;
 }

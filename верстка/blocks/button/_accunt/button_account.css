@@ -3,7 +3,7 @@
   margin-top: 168px;
   margin-bottom: 32px;
   color: white;
-  background-color: var(--color11);
+  background-color: var(--blue);
 }
 
 @media screen and (max-width: 425px) {

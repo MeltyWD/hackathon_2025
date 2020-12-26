@@ -1,4 +1,4 @@
 .status__item_color_yellow {
-  background-color: var(--color9);
-  color: var(--color1);
+  background-color: var(--yellow1);
+  color: var(--darkgray1);
 }

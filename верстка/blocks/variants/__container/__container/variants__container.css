@@ -15,11 +15,11 @@
   display: none;
 }
 .variants__container::-webkit-scrollbar-track-piece {
- background-color: var(--color6);
+ background-color: var(--lightgray2);
 }
 .variants__container::-webkit-scrollbar-thumb {
  height: 40px;
- background-color: var(--color4);
+ background-color: var(--darkgray4);
 }
 .variants__container::-webkit-scrollbar-corner {
  display: none;

@@ -1,11 +1,35 @@
 .main {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
-    z-index: 99;
-    width: 100%;
-    overflow-x: hidden;
-    /* overflow-y: scroll; */
-    min-height: 85vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  z-index: 99;
+  width: 100%;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  margin-top: 80px;
+  margin-bottom: 90px;
+}
+
+.main::-webkit-scrollbar {
+  width: 8px;
+}
+.main::-webkit-scrollbar-button {
+  display: none;
+}
+.main::-webkit-scrollbar-track {
+  display: none;
+}
+.main::-webkit-scrollbar-track-piece {
+  background-color: var(--lightgray2);
+}
+.main::-webkit-scrollbar-thumb {
+  height: 40px;
+  background-color: var(--darkgray4);
+}
+.main::-webkit-scrollbar-corner {
+  display: none;
+}
+.main::-webkit-resizer {
+  display: none;
 }
