@@ -1,9 +1,34 @@
 .status__blocks {
-  max-height: 288px;
-  max-width: 312px;
+  max-height: 416px;
+  max-width: 460px;
   overflow-y: scroll;
-  margin-right: 216px;
+  margin-right: 40px;
+  display: flex;
+  flex-direction: column;
 }
+
+.status__blocks::-webkit-scrollbar {
+  width: 8px;
+ }
+ .status__blocks::-webkit-scrollbar-button {
+     display: none;
+ }
+ .status__blocks::-webkit-scrollbar-track {
+   display: none;
+ }
+ .status__blocks::-webkit-scrollbar-track-piece {
+  background-color: var(--lightgray2);
+ }
+ .status__blocks::-webkit-scrollbar-thumb {
+  height: 40px;
+  background-color: var(--darkgray4);
+ }
+ .status__blocks::-webkit-scrollbar-corner {
+  display: none;
+ }
+ .status__blocks::-webkit-resizer {
+  display: none;
+ }
 
 @media screen and (max-width: 425px) {
   .status__blocks {

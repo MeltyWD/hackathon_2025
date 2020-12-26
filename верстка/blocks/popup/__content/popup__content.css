@@ -1,6 +1,6 @@
 .popup__content {
     width: 432px;
-    background: rgb(34, 34, 34);
+    background: var(--darkgray1);
     display: flex;
     flex-direction: column;
     padding: 68px 96px 34px 96px;

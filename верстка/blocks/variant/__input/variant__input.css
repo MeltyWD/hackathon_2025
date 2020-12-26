@@ -1,16 +1,15 @@
 .variant__input {
-    width: 100%;
-    background: var(--color5);
+    width: 440px;
+    background: var(--lightgray1);
     font-size: 16px;
     line-height: 48px;
     border: none;
-    color: var(--color7);
-    margin-bottom: 16px;
+    color: var(--lightgray3);
     padding-left: 19px;
 }
 
 .variant__input::placeholder {
-    color: var(--color7);
+    color: var(--lightgray3);
 }
 
 @media screen and (max-width: 425px) {

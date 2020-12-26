@@ -7,7 +7,8 @@
 @import url(../blocks/content/content.css);
 @import url(../blocks/main/main.css);
 
-/* Анимированный фон */
+/* Фон */
+@import url(../blocks/background/background.css);
 @import url(../blocks/background-top/background-top.css);
 @import url(../blocks/background-bottom/background-bottom.css);
 
@@ -22,6 +23,7 @@
 @import url(../blocks/logo/logo.css);
 @import url(../blocks/logo/__span/logo__span.css);
 @import url(../blocks//logo/__icon/logo__icon.css);
+@import url(../blocks/logo/__notification/logo__notification.css);
 @import url(../blocks/header/__icon/header__icon.css);
 @import url(../blocks/header/__icon/_type/header__icon_type_basket.css);
 @import url(../blocks/header/__icon/_type/header__icon_type_profile.css);
@@ -58,9 +60,9 @@
 @import url(../blocks/options/options.css);
 @import url(../blocks/options/__grid/options__grid.css);
 @import url(../blocks/options/__item/options__item.css);
-@import url(../blocks/options/__item/_active/options__item_active.css);
 @import url(../blocks/options/__text/options__text.css);
 @import url(../blocks/button/_options/button_options.css);
+@import url(../blocks/options/__item/_active/options__item_active.css);
 
 /* Экран с выводом всех цитат по запросу и форма */
 @import url(../blocks/form/form.css);
@@ -81,6 +83,7 @@
 @import url(../blocks/variant/__input/_contacts/variant__input_contacts.css);
 @import url(../blocks/variant/__textarea/variant__textarea.css);
 @import url(../blocks/button/_variant/button_variant.css);
+@import url(../blocks/variants/__buttons/variants__buttons.css);
 
 /* Экриан с рейтингом инициатив */
 @import url(../blocks/initiative/initiative.css);
@@ -98,6 +101,10 @@
 @import url(../blocks//initiative/__star/initiative__star.css);
 @import url(../blocks/initiative/__emoji/initiative__emoji.css);
 @import url(../blocks/initiative/__new/initiative__new.css);
+@import url(../blocks/initiative/__number/initiative__number.css);
+@import url(../blocks/initiative/__like/initiative__like.css);
+@import url(../blocks/initiative/__like/_dark/initiative__like_dark.css);
+@import url(../blocks/initiative/__like/_red/initiative__like_red.css);
 @import url(../blocks/button/_initiative/button_initiative.css);
 
 /* Экран со статусом инициатив */
@@ -108,7 +115,7 @@
 @import url(../blocks/status/__container/status__container.css);
 @import url(../blocks/status/__blocks/status__blocks.css);
 @import url(../blocks/status/__block/status__block.css);
-@import url(../blocks/status/__close/status__close.css);
+@import url(../blocks/status/__indicator/status__indicator.css);
 @import url(../blocks/status/__title/status__title.css);
 @import url(../blocks/status/__subtitle/status__subtitle.css);
 @import url(../blocks/status/__list/status__list.css);
@@ -117,12 +124,16 @@
 @import url(../blocks/status/__item/_color/status__item_color_red.css);
 @import url(../blocks/status/__string/status__string.css);
 @import url(../blocks/status/__number/status__number.css);
+@import url(../blocks/status/__arrow/status__arrow.css);
+@import url(../blocks/status/__arrow/_color/status__item_color_wheat.css);
+@import url(../blocks/status/__arrow/_color/status__item_color_yellow.css);
 
 /* Попап */
 @import url(../blocks/popup/popup.css);
 @import url(../blocks/popup/__content/popup__content.css);
 @import url(../blocks/popup/__text/popup__text.css);
 @import url(../blocks/button/_popup/button_popup.css);
+@import url(../blocks/popup/__initiative/popup__initiative.css);
 
 /* Форма с контактами */
 @import url(../blocks/contacts/__form/contacts__form.css);
@@ -138,7 +149,17 @@
 @import url(../blocks/account/__subtitle/account__subtitle.css);
 @import url(../blocks/account/__options/account__options.css);
 @import url(../blocks/account/__item/account__item.css);
+@import url(../blocks/account/__notification/account__notification.css);
 @import url(../blocks/button/_accunt/button_account.css);
+
+/* О сервисе */
+@import url(../blocks/about/__content/about__content.css);
+@import url(../blocks/about/__paragraph/about__paragraph.css);
+@import url(../blocks/about/__picture/about__picture.css);
+@import url(../blocks/about/__subtitle/about__subtitle.css);
+@import url(../blocks/about/__text/about__text.css);
+@import url(../blocks/about/__title/about__title.css);
+@import url(../blocks/button/_about/buttom_about.css);
 
 /* Футер */
 @import url(../blocks/footer/footer.css);
