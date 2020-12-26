@@ -169,6 +169,9 @@
 
 /* Футер */
 @import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__link/_post/footer__link_post.css);
+@import url(../blocks/footer/__box/footer__box.css);
 @import url(../blocks/footer/__container/footer__container.css);
 @import url(../blocks/footer/__company/footer__company.css);
 @import url(../blocks/footer/__number/footer__number.css);
