@@ -2,9 +2,5 @@
   background-image: url(../../../../images/eye.svg);
   right: 10px;
   bottom: 10px;
-  background-size: 90%;
-  background-repeat: no-repeat;
-  background-position: 50%;
-  border: 2px solid #F2CC0D;
-  border-radius: 2px;
+  background-size: 100%;
 }

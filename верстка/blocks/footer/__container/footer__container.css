@@ -5,10 +5,3 @@
     color: var(--white);
     align-items: flex-start;
 }
-
-@media screen and (max-width: 425px) {
-    .footer__container {
-        flex-direction: column;
-        width: 84%;
-    }
-}

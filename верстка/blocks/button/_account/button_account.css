@@ -2,12 +2,6 @@
   padding: 12px 70px;
   margin-top: 168px;
   margin-bottom: 32px;
-  color: white;
+  color: var(--white);
   background-color: var(--blue);
-}
-
-@media screen and (max-width: 425px) {
-  .button_account {
-    display: none;
-  }
 }

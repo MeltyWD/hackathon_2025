@@ -14,8 +14,3 @@
 .variant__text:nth-child(2) {
   margin-bottom: 0;
 }
-
-@media screen and (max-width: 425px) {
-  .variant__text {
-  }
-}

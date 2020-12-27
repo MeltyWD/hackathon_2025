@@ -27,9 +27,3 @@
 .variants__container::-webkit-resizer {
  display: none;
 }
-
-@media screen and (max-width: 425px) {
- .variants__container {
-  flex-direction: column;
- }
-}

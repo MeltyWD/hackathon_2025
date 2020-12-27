@@ -6,9 +6,3 @@
   flex-direction: column;
   justify-content: center;
 }
-
-@media screen and (max-width: 425px) {
-  .initiative__text {
-    margin: 0 4px 0 0px;
-  }
-}

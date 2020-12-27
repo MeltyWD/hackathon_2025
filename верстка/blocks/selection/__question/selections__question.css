@@ -4,13 +4,5 @@
   font-size: 36px;
   line-height: 40px;
   max-width: 390px;
-  color: white;
-}
-
-@media screen and (max-width: 425px) {
-  .selections__question {
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 20px;
-  }
+  color: var(--white);
 }

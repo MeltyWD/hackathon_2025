@@ -1,8 +1,8 @@
 .button_options {
-    margin-top: 112px;
+    margin-top: 20px;
     padding: 10px 30px;
     background: var(--blue);
-    color: white;
+    color: var(--white);
     width: 160px;
 }
 
@@ -10,10 +10,4 @@
     background: var(--yellow1);
     color: var(--darkgray1);
     width: 200px;
-}
-
-@media screen and (max-width: 425px) {
-    .button_options.page-link {
-        display: none;
-    }
 }

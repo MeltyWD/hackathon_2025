@@ -5,12 +5,3 @@
     margin: 0;
     color: var(--yellow1);
 }
-
-@media screen and (max-width: 425px) {
-    .banner__title {
-        font-weight: 500;
-        font-size: 18px;
-        line-height: 19px;
-        margin-bottom: 25px;
-    }
-}

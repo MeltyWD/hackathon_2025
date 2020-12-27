@@ -4,13 +4,3 @@
     right: 23px;
     bottom: 23px;
 }
-
-@media screen and (max-width: 425px) {
-    .button_variant {
-      right: 27px;
-      bottom: 12px;
-      font-weight: 400;
-      font-size: 9px;
-      line-height: 12px;
-    }
-}

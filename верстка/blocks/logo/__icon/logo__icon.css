@@ -5,11 +5,3 @@
     background-size: cover;
     z-index: 1;
 }
-
-@media screen and (max-width: 425px) {
-    .logo__icon {
-        top: 0%;
-        right: -40%;
-        z-index: 1;
-    }
-}

@@ -7,11 +7,3 @@
   background-repeat: no-repeat;
   background-position: 50%;
 }
-
-@media screen and (max-width: 425px) {
-  .initiative__span {
-    font-weight: 400;
-    font-size: 9px;
-    line-height: 12px;
-  }
-}

@@ -8,15 +8,6 @@
 }
 
 .button_form:nth-child(2) {
-    color: white;
+    color: var(--white);
     background-color: var(--blue);
-}
-
-@media screen and (max-width: 425px) {
-    .button_form {
-        width: 120px;
-        font-size: 14px;
-        line-height: 20px;
-        margin-bottom: 20px;
-    }
 }

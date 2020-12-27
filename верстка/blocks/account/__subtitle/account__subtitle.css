@@ -3,17 +3,11 @@
   line-height: 24px;
   max-width: 365px;
   margin-top: 35px;
-  color: white;
+  color: var(--white);
 }
 
 .account__subtitle:nth-child(3) {
   margin-top: 0;
   font-weight: 700;
   margin-bottom: 32px;
-}
-
-@media screen and (max-width: 425px) {
-  .account__subtitle {
-    font-size: 14px;
-  }
 }

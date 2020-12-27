@@ -11,9 +11,3 @@
 .variant__input::placeholder {
     color: var(--lightgray3);
 }
-
-@media screen and (max-width: 425px) {
-    .variant__input {
-      
-    }
-}

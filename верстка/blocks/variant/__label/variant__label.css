@@ -4,10 +4,3 @@
   margin-bottom: 16px;
   width: 440px;
 }
-
-@media screen and (max-width: 425px) {
-  .variant__label {
-    width: 84%;
-    margin: 0 auto;
-  }
-}

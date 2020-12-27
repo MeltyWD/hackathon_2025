@@ -6,11 +6,3 @@
     background-color: var(--yellow1);
     text-transform: uppercase;
 }
-
-@media screen and (max-width: 425px) {
-    .button_popup {
-        width: 240px;
-        margin: 0 auto;
-        padding: 15px 0 15px 0;
-    }
-}

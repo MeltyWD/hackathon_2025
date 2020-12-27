@@ -5,11 +5,3 @@
   line-height: 32px;
   color: var(--lightgray4);
 }
-
-@media screen and (max-width: 425px) {
-  .status__title {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 20px;
-  }
-}

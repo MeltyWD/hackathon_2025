@@ -9,9 +9,3 @@
     background-color: var(--blue);
     color: var(--white)
 }
-
-@media screen and (max-width: 425px) {
-  .button_initiative {
-    display: none;
-  }
-}
