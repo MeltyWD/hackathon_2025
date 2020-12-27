@@ -1,25 +1,37 @@
 {
-  "name": "hackathon2025",
-  "version": "1.0.0",
-  "description": "hackathon2025",
-  "main": "index.js",
+  "name": "backend",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
   "scripts": {
-    "start": "node app.js",
-    "dev": "nodemon app.js"
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "strapi": "3.4.1",
+    "strapi-admin": "3.4.1",
+    "strapi-utils": "3.4.1",
+    "strapi-plugin-content-type-builder": "3.4.1",
+    "strapi-plugin-content-manager": "3.4.1",
+    "strapi-plugin-users-permissions": "3.4.1",
+    "strapi-plugin-email": "3.4.1",
+    "strapi-plugin-upload": "3.4.1",
+    "strapi-connector-bookshelf": "3.4.1",
+    "knex": "<0.20.0",
+    "sqlite3": "latest"
   },
   "author": {
-    "name": "Portnyagin Andrei",
-    "email": "Meltygd@gmail.com",
-    "url": "https://github.com/MeltyWD"
+    "name": "A Strapi developer"
   },
-  "license": "ISC",
-  "devDependencies": {
-    "eslint": "^7.14.0",
-    "eslint-config-airbnb-base": "^14.2.1",
-    "eslint-plugin-import": "^2.22.1",
-    "nodemon": "^2.0.6"
+  "strapi": {
+    "uuid": "bfb2e556-d25c-4542-a838-ae2c67413d67"
   },
-  "dependencies": {
-    "express": "^4.17.1"
-  }
+  "engines": {
+    "node": ">=10.16.0 <=14.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
 }

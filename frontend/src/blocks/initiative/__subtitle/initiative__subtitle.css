@@ -1,0 +1,12 @@
+.initiative__subtitle {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 9px;
+  line-height: 12px;
+  margin: 0;
+  margin-top: 7px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 100%;
+}

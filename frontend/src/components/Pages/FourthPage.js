@@ -24,27 +24,27 @@ function ThirdPage(props) {
         onClickSelect={handleClickNext}
         categoryList={[{
           text: 'Сделать',
-          search: 'Сделать'
+          search: 'сделать'
         },
         {
           text: 'Проверить',
-          search: 'Проверить'
+          search: 'проверить'
         },
         {
           text: 'Почистить',
-          search: 'Почистить'
+          search: 'почистить'
         },
         {
           text: 'Починить',
-          search: 'Починить'
+          search: 'починить'
         },
         {
           text: 'Убрать',
-          search: 'Убрать'
+          search: 'убрать'
         },
         {
           text: 'Полюбоваться',
-          search: 'Полюбоваться'
+          search: 'полюбоваться'
         }]}
       />
     </section>

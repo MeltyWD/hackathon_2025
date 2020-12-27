@@ -1,14 +1,18 @@
 .variant__text {
-  font-family: Vollkorn;
-  font-style: italic;
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 20px;
-  max-width: 220px;
-  margin: 0;
-  margin-bottom: 0;
+    font-family: Vollkorn;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    max-width: 220px;
+    margin: 0;
+    margin-bottom: 30px;
 }
 
-.variant__text:last-child {
-  margin-bottom: 30px;
+.variant__text:nth-child(2) {
+    margin-bottom: 0;
+}
+
+@media screen and (max-width: 425px) {
+    .variant__text {}
 }

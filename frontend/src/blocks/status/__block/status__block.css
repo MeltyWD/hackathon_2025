@@ -1,0 +1,15 @@
+.status__block {
+  background: rgba(0, 0, 0, 0.15);
+  margin-right: 16px;
+  margin-bottom: 28px;
+  padding: 10px 20px;
+  position: relative;
+}
+
+.status__block:nth-child(3) {
+  background-color: rgba(0, 0, 0, 0.30);
+}
+
+.status__block:last-child {
+  margin-bottom: 0;
+}

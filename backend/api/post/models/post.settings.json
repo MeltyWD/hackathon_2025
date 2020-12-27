@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "posts",
+  "info": {
+    "name": "Post",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "poem": {
+      "type": "json"
+    },
+    "author": {
+      "via": "posts",
+      "plugin": "users-permissions",
+      "model": "user"
+    },
+    "likes": {
+      "via": "liked",
+      "plugin": "users-permissions",
+      "collection": "user"
+    }
+  }
+}

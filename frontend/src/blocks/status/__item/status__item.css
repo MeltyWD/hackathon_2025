@@ -1,0 +1,17 @@
+.status__item {
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 20px;
+}
+
+.status__item:last-child {
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 425px) {
+  .status__item {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+  }
+}

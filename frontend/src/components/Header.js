@@ -9,9 +9,9 @@ function Header(props) {
           <span className="logo__span">к тётеньке</span>
         </Link>
         <p className="header__description">Портал гражданских инициатив</p>
-        <button
+        <Link to="/log-in"
           className="header__icon header__icon_type_profile page-link"
-        ></button>
+        ></Link>
       </div>
     </header>
   )

@@ -1,15 +1,25 @@
-@import url(./__textbox/variant__textbox.css);
-
 .variant {
   background: #d5d5d5;
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
   width: 432px;
+  margin-right: 96px;
   box-sizing: border-box;
-  padding: 10px 22px 15px 30px;
+  padding: 10px 0px 15px 30px;
   position: relative;
   max-height: 170px;
 }
 
-.variant:nth-child(2) {
+.variant:last-child {
   margin-right: 0;
+}
+
+@media screen and (max-width: 425px) {
+  .variant {
+    padding: 18px 27px;
+    margin: 0 0 23px 0;
+    width: 100%;
+  }
+  .variant:last-child {
+    margin-bottom: 0;
+  }
 }

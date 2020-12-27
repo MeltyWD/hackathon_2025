@@ -1,0 +1,15 @@
+.status__blocks {
+  max-height: 288px;
+  max-width: 312px;
+  overflow-y: scroll;
+  margin-right: 216px;
+}
+
+@media screen and (max-width: 425px) {
+  .status__blocks {
+    max-height: 100%;
+    max-width: 100%;
+    overflow-y:auto;
+    margin-right: 0px;
+  }
+}

@@ -38,6 +38,7 @@ function Main(props) {
       })
       .then(res => {
         setPoemList(res)
+        console.log(`https://hackathon2025.herokuapp.com/poems/${selectCategoryOne}/${selectCategoryTwo}/${selectCategoryThree}`)
       })
       .catch((err) => console.log(err))
     }

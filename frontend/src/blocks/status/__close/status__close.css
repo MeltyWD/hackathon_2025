@@ -1,0 +1,13 @@
+.status__close {
+  height: 14px;
+  width: 14px;
+  background-image: url(../../../images/close_place_status.svg);
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  background-size: cover;
+  background-color: transparent;
+}

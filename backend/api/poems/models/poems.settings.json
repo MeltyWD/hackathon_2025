@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "poems",
+  "info": {
+    "name": "poems",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "poems": {
+      "type": "json"
+    },
+    "POSTID": {
+      "type": "uid"
+    },
+    "poem_name": {
+      "type": "string"
+    }
+  }
+}

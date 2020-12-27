@@ -24,11 +24,11 @@ function SecondPage(props) {
         onClickSelect={handleClickNext}
         categoryList={[{
           text: 'Дом',
-          search: 'Дом'
+          search: 'дом'
         },
         {
           text: 'Двор',
-          search: 'Двор'
+          search: 'двор'
         },
         {
           text: 'Улица',

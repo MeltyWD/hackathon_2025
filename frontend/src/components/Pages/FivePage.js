@@ -8,10 +8,10 @@ function FivePage(props) {
     props.onClickPageChange(4)
   }
 
-  function handleClickNext(text) {
-    props.selectedCategory(text)
-    props.onClickPageChange(5)
-  }
+  // function handleClickNext(text) {
+  //   props.selectedCategory(text)
+  //   props.onClickPageChange(5)
+  // }
 
   return (
     <section className={`page ${ props.selected === props.pageNumber && 'page_active'}`}>
