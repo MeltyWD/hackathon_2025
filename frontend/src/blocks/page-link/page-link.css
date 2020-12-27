@@ -1,0 +1,11 @@
+.page-link {
+    text-decoration: none;
+    transition: opacity .2s linear;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.page-link:hover {
+    opacity: .7;
+}

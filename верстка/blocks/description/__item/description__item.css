@@ -1,0 +1,11 @@
+.description__item {
+    width: 160px;
+    min-height: 72px;
+    background-color: var(--blue);
+    color: var(--white);
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+}

@@ -1,0 +1,20 @@
+.form__input {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+}
+
+.form__input:checked + .form__span::before {
+  content: '';
+  position: absolute;
+  background-image: url(../../../images/input__checked.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 16px;
+  width: 16px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

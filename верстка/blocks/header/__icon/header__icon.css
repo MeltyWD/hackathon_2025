@@ -1,0 +1,11 @@
+.header__icon {
+  height: 22px;
+  width: 30px;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-image: url(../../../images/cabinet.svg);
+}

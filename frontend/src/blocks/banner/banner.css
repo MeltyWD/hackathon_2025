@@ -1,0 +1,6 @@
+.banner {
+  position: relative;
+  display: flex;
+  z-index: 99;
+  padding: 20px 0;
+}

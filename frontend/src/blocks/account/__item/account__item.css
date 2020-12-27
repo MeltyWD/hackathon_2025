@@ -1,0 +1,10 @@
+.account__item {
+  background: var(--yellow1);
+  height: 128px;
+  width: 280px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}

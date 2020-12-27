@@ -1,0 +1,9 @@
+.banner__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 420px;
+    width: 100%;
+    max-width: 760px;
+    margin-left: 165px;
+}

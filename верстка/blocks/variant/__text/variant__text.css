@@ -1,0 +1,16 @@
+.variant__text {
+  font-family: Oswald;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  line-height: 20px;
+  max-width: 220px;
+  margin: 0;
+  margin-bottom: 30px;
+  color: var(--darkgray1);
+}
+
+.variant__text:nth-child(2) {
+  margin-bottom: 0;
+}

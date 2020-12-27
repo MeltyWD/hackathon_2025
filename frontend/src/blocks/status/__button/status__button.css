@@ -1,0 +1,12 @@
+.status__button {
+  height: 24px;
+  width: 24px;
+  background-image: url(../../../images/search.svg);
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+  position: absolute;
+  right: 10px;
+  top: 0;
+}

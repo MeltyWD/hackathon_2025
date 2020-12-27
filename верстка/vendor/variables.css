@@ -1,0 +1,20 @@
+* {
+    box-sizing: border-box;
+    /* outline: 1px solid gray; */
+}
+
+:root {
+    --darkgray1: #211F2E;
+    --darkgray2: #37334D;
+    --darkgray3: #504C67;
+    --darkgray4: #696482;
+    --lightgray1: #837E9A;
+    --lightgray2: #9D98B3;
+    --lightgray3: #B9B6C9;
+    --lightgray4: #D5D3DE;
+    --yellow1: #F2CC0D;
+    --yellow2: #F5E7A3;
+    --blue: #6699CC;
+    --black: #000000;
+    --white: #ffffff;
+  }

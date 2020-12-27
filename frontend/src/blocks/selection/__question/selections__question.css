@@ -1,0 +1,8 @@
+.selections__question {
+  margin: 0;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 40px;
+  max-width: 390px;
+  color: var(--white);
+}

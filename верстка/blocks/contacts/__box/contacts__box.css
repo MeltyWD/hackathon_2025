@@ -1,0 +1,10 @@
+.contacts__box {
+  width: 440px;
+  margin-right: 48px;
+}
+
+.contacts__box:last-of-type {
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+}

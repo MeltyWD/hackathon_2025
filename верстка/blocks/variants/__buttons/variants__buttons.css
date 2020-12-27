@@ -1,0 +1,4 @@
+.variants__buttons {
+    display: flex;
+    justify-content: space-between;
+}

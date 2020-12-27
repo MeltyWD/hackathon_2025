@@ -1,0 +1,7 @@
+.variant__textbox {
+  width: 476px;
+  height: 102px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-bottom: 20px;
+}

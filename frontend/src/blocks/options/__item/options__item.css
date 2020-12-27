@@ -1,0 +1,14 @@
+.options__item {
+  background-image: url(../../../images/background/background__first.svg);
+  background-position: center bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 112px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.options__item:hover {
+  cursor: pointer;
+}
