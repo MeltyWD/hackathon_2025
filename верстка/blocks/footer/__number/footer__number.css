@@ -10,9 +10,3 @@
 .footer__number:first-child {
     font-weight: 700;
 }
-
-@media screen and (max-width: 425px) {
-    .footer__number {
-        display: none;
-    }
-}

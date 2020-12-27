@@ -1,20 +1,13 @@
 .account__subtitle {
   font-size: 16px;
-  line-height: 20px;
+  line-height: 24px;
   max-width: 365px;
-  margin-top: 25px;
-  margin-bottom: 0;
-  color: white;
+  margin-top: 35px;
+  color: var(--white);
 }
 
 .account__subtitle:nth-child(3) {
   margin-top: 0;
   font-weight: 700;
-  margin-bottom: 14px;
-}
-
-@media screen and (max-width: 425px) {
-  .account__subtitle {
-    font-size: 14px;
-  }
+  margin-bottom: 32px;
 }

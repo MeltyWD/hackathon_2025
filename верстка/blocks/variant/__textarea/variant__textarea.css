@@ -1,8 +1,8 @@
 .variant__textarea {
   width: 100%;
   border: none;
-  color: var(--color7);
-  background: var(--color5);
+  color: var(--lightgray3);
+  background: var(--lightgray1);
   font-size: 16px;
   height: 120px;
   margin-bottom: 24px;
@@ -10,12 +10,5 @@
 }
 
 .variant__textarea::placeholder {
-  color: var(--color7);
-}
-
-@media screen and (max-width: 425px) {
-  .variant__textarea {
-    height: 50px;
-    vertical-align: bottom;
-  }
+  color: var(--lightgray3);
 }

@@ -3,10 +3,3 @@
     flex-direction: column;
     width: 432px;
 }
-
-@media screen and (max-width:425px) {
-    .variant__form {
-        width: 84%;
-        margin: 0 auto;
-    }
-}

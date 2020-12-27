@@ -1,16 +1,10 @@
 .account__item {
-  background: var(--color9);
+  background: var(--yellow1);
   height: 128px;
   width: 280px;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-}
-
-@media screen and (max-width: 425px) {
-  .account__item {
-    width: 100%;
-    margin-bottom: 20px;
-  }
+  position: relative;
 }

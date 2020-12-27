@@ -11,18 +11,3 @@
     line-height: 24px;
     margin-bottom: 9px;
 }
-
-@media screen and (max-width: 425px) {
-    .footer__company:first-child {
-        display: none;
-    }
-    .footer__company {
-        font-weight: 700;
-        font-size: 14px;
-        line-height: 19px;
-        width: 150px;
-        display: inline-block;
-        align-self: center;
-        justify-self: flex-start;
-    }
-}

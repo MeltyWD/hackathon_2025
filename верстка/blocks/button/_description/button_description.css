@@ -1,30 +1,6 @@
 .button_description {
-  background-color: var(--color9);
+  background-color: var(--yellow1);
   padding: 12px 0px;
-  margin: 80px auto;
+  margin: 40px auto;
   width: 240px;
-}
-
-@media screen and (max-width: 425px) {
-  .button_description {
-    padding: 20px 10px;
-    margin: 20px auto 0px;
-    width: 84%;
-    position: relative;
-    text-align: center;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 20px;
-  }
-  .button_description::after {
-    content: "Статус инициативы Вы можете отследить в своем Кабинете, который доступен после регистрации на Портале.";
-    margin-top: 15px;
-    text-align: left;
-    font-size: 9px;
-    line-height: 12px;
-    font-weight: 700;
-    position: absolute;
-    top: 100%;
-    left: 0;
-  }
 }

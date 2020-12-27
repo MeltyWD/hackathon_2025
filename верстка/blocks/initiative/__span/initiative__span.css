@@ -1,14 +1,9 @@
 .initiative__span {
-  font-weight: bold;
-  font-size: 9px;
-  line-height: 12px;
-  margin: 0;
-}
-
-@media screen and (max-width: 425px) {
-  .initiative__span {
-    font-weight: 400;
-    font-size: 9px;
-    line-height: 12px;
-  }
+  width: 9px;
+  height: 9px;
+  margin: 0 3px 0 0;
+  display: inline-block;
+  background-image: url(../../../images/heart.svg);
+  background-repeat: no-repeat;
+  background-position: 50%;
 }

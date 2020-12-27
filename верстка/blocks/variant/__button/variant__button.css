@@ -1,18 +1,12 @@
 .variant__button {
-    width: 24px;
-    height: 24px;
+    width: 15px;
+    height: 15px;
     background-image: url(../../../images/close.svg);
-    background-size: cover;
-    box-shadow: none;
+    background-size: 80%;
+    background-position: 50%;
+    background-repeat: no-repeat;
     background-color: transparent;
     position: absolute;
     bottom: 10px;
     right: 80px;
-}
-
-@media screen and (max-width: 425px) {
-    .button.variant__button {
-        top: 18px;
-        right: 27px;
-    }
 }

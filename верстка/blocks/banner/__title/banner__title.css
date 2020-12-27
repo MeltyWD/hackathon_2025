@@ -3,14 +3,5 @@
     font-size: 36px;
     line-height: 40px;
     margin: 0;
-    color: var(--color9);
-}
-
-@media screen and (max-width: 425px) {
-    .banner__title {
-        font-weight: 500;
-        font-size: 18px;
-        line-height: 19px;
-        margin-bottom: 25px;
-    }
+    color: var(--yellow1);
 }

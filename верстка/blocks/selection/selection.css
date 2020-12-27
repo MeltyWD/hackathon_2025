@@ -1,9 +1,3 @@
 .selection {
   margin-top: 28px;
 }
-
-@media screen and (max-width: 425px) {
-  .selection {
-    width: 84%;
-  }
-}

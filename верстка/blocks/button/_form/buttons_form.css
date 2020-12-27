@@ -3,20 +3,11 @@
     width: 160px;
     display: flex;
     justify-content: center;
-    color: var(--color1);
-    background-color: var(--color9);
+    color: var(--darkgray1);
+    background-color: var(--yellow1);
 }
 
 .button_form:nth-child(2) {
-    color: white;
-    background-color: var(--color11);
-}
-
-@media screen and (max-width: 425px) {
-    .button_form {
-        width: 120px;
-        font-size: 14px;
-        line-height: 20px;
-        margin-bottom: 20px;
-    }
+    color: var(--white);
+    background-color: var(--blue);
 }

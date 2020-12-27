@@ -1,15 +1,14 @@
 .status__input {
   font-size: 16px;
   line-height: 48px;
-  background: #E5E5E5;
-  width: 288px;
+  color: var(--lightgray4);
+  background-color: var(--darkgray3);
+  width: 460px;
   margin-bottom: 32px;
-  color: rgba(0, 0, 0, 0.3);
   border: 0;
+  padding-left: 19px;
 }
 
-@media screen and (max-width: 425px) {
-  .status__input {
-    width: 100%;
-  }
+.status__input::placeholder {
+  color: var(--lightgray4);
 }

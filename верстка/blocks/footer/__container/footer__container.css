@@ -2,12 +2,6 @@
     display: flex;
     justify-content: space-between;
     padding: 23px 0 14px;
-    color: var(--color13);
-}
-
-@media screen and (max-width: 425px) {
-    .footer__container {
-        flex-direction: column;
-        width: 84%;
-    }
+    color: var(--white);
+    align-items: flex-start;
 }

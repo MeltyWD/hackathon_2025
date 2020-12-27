@@ -1,9 +1,0 @@
-.variants__container {
-    display: flex;
-}
-
-@media screen and (max-width: 425px) {
-    .variants__container {
-        flex-direction: column;
-    }
-}

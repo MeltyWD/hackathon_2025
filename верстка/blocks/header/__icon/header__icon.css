@@ -9,17 +9,3 @@
   background-repeat: no-repeat;
   background-image: url(../../../images/cabinet.svg);
 }
-
-.header__icon:first-child {
-  margin-right: 15px;
-}
-
-@media screen and (max-width: 425px) {
-  .header__icon {
-    width: 36px;
-    height: 24px;
-    position: absolute;
-    top: -6px;
-    right: -6px;
-  }
-}

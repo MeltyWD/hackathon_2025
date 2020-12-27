@@ -1,20 +1,13 @@
 .contacts__textarea {
-  border: 1px solid var(--color8);
-  color: #fff;
+  border: 1px solid var(--lightgray4);
+  color: var(--white);
   background: transparent;
   font-size: 16px;
   line-height: 48px;
-  width: 480px;
+  width: 440px;
+  padding-left: 19px;
 }
 
 .contacts__textarea::placeholder {
-  color: #fff;
-}
-
-@media screen and (max-width: 425px) {
-  .contacts__textarea {
-    width: 100%;
-    margin: 0 auto;
-    padding: 0;
-  }
+  color: var(--white);
 }

@@ -1,5 +1,6 @@
 .initiative__title {
   margin: 0;
+  margin-left: 60px;
   font-family: Vollkorn;
   font-style: italic;
   font-weight: 600;
@@ -8,12 +9,4 @@
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
-  width: 200px;
-}
-
-@media screen and (max-width: 425px) {
-  .initiative__title {
-    font-weight: 600;
-    font-size: 14px;
-  }
 }
