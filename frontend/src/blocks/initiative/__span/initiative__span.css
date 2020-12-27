@@ -1,0 +1,9 @@
+.initiative__span {
+  width: 9px;
+  height: 9px;
+  margin: 0 3px 0 0;
+  display: inline-block;
+  background-image: url(../../../images/heart.svg);
+  background-repeat: no-repeat;
+  background-position: 50%;
+}

@@ -4,6 +4,7 @@ import SecondPage from './Pages/SecondPage';
 import ThirdPage from './Pages/ThirdPage';
 import FourthPage from './Pages/FourthPage';
 import FivePage from './Pages/FivePage';
+import SixPage from './Pages/SixPage';
 
 function Main(props) {
 
@@ -12,6 +13,8 @@ function Main(props) {
   const [ selectCategoryTwo, setSelectCategoryTwo ] = React.useState('')
   const [ selectCategoryThree, setSelectCategoryThree ] = React.useState('')
   const [ poemList, setPoemList ] = React.useState([])
+  const [ postSelect, setPostSelect ] = React.useState([])
+  const [ postSelectAuthor, setPostSelectAuthor ] = React.useState('')
 
   function clickPageChange(number) {
     setSelectPage(number)
@@ -24,6 +27,10 @@ function Main(props) {
   }
   function selectedCategoryThree(text) {
     setSelectCategoryThree(text)
+  }
+  function postSelected(data) {
+    setPostSelect(data.text)
+    setPostSelectAuthor(data.author)
   }
 
   React.useEffect(() => {
@@ -45,7 +52,7 @@ function Main(props) {
   },[selectCategoryThree])
 
   return (
-    <main>
+    <main className="main">
       <FirstPage
         selected={selectPage}
         pageNumber={1}
@@ -79,6 +86,19 @@ function Main(props) {
         pageNumber={5}
         onClickPageChange={clickPageChange}
         poemList={poemList}
+        selectedCategory={postSelected}
+        prevSelected={{
+          one: selectCategoryOne, 
+          two: selectCategoryTwo,
+          three: selectCategoryThree
+      }}
+      />
+      <SixPage 
+        selected={selectPage}
+        pageNumber={6}
+        onClickPageChange={clickPageChange}
+        postSelect={postSelect}
+        postSelectAuthor={postSelectAuthor}
         prevSelected={{
           one: selectCategoryOne, 
           two: selectCategoryTwo,

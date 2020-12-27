@@ -1,17 +1,17 @@
 import { Link } from 'react-router-dom';
+import headerLogo from '../images/logo.svg';
 
 function Header(props) {
   return (
     <header className="header">
       <div className="header__container content">
-        <Link className="page-link" to="/"
-          ><h2 className="logo">Письма</h2>
-          <span className="logo__span">к тётеньке</span>
+        <Link className="page-link" to="/">
+          <img className="logo__icon" src={headerLogo} alt="" />
         </Link>
-        <p className="header__description">Портал гражданских инициатив</p>
-        <button
-          className="header__icon header__icon_type_profile page-link"
-        ></button>
+        <h1 className="header__description">Портал гражданских инициатив</h1>
+        <button className="header__icon page-link">
+          <span className="logo__notification">2</span>
+        </button>
       </div>
     </header>
   )

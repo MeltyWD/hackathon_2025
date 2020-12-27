@@ -1,6 +1,11 @@
 .description__item {
-  width: 144px;
-  background: rgba(0, 0, 0, 0.15);
-  padding: 20px;
-  box-sizing: border-box;
+    width: 160px;
+    min-height: 72px;
+    background-color: var(--blue);
+    color: var(--white);
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
 }

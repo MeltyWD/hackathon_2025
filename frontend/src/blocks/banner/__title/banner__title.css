@@ -1,7 +1,7 @@
 .banner__title {
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 20px;
-  margin: 0;
-  margin-bottom: 35px;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 40px;
+    margin: 0;
+    color: var(--yellow1);
 }

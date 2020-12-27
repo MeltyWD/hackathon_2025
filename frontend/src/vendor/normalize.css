@@ -22,7 +22,6 @@
 
 body {
   margin: 0;
-  background-color: #000;
 }
 
 /**
@@ -347,8 +346,4 @@ template {
 
 [hidden] {
   display: none;
-}
-
-p {
-  margin: 0;
 }

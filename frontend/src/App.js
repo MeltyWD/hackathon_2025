@@ -10,6 +10,7 @@ function App() {
       />
       <Main />
       <Footer />
+      <div className="background"></div>
     </>
   );
 }

@@ -1,6 +1,6 @@
 .button_variant {
-  margin-top: 5px;
-  padding: 10px 28px;
-  display: flex;
-  margin-left: auto;
+    padding: 10px 28px;
+    position: absolute;
+    right: 23px;
+    bottom: 23px;
 }

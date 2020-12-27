@@ -14,7 +14,7 @@ function ThirdPage(props) {
   }
 
   return (
-    <section className={`page ${ props.selected === props.pageNumber && 'page_active'}`}>
+    <section className={`selected ${ props.selected === props.pageNumber && 'selected_active'}`}>
       <TopPageSection 
         decisionText={`> ${props.prevSelected}`}
         questionText={'В чем суть проблемы?'}
@@ -24,27 +24,27 @@ function ThirdPage(props) {
         onClickSelect={handleClickNext}
         categoryList={[{
           text: 'Освещение',
-          search: 'свет'
+          search: 'Свет'
         },
         {
           text: 'Состояние',
-          search: 'состояни'
+          search: 'Состояни'
         },
         {
           text: 'Безопасность',
-          search: 'опасность'
+          search: 'Опасность'
         },
         {
           text: 'Знаки и разметка',
-          search: 'знак'
+          search: 'Знак'
         },
         {
           text: 'Остановки',
-          search: 'стоянк'
+          search: 'Стоянк'
         },
         {
           text: 'Реклама',
-          search: 'реклама'
+          search: 'Реклама'
         }]}
       />
     </section>

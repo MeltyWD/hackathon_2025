@@ -1,14 +1,11 @@
 .header__icon {
-  height: 26px;
-  width: 33px;
+  height: 22px;
+  width: 30px;
   background-color: transparent;
   outline: none;
   border: none;
   cursor: pointer;
-  background-size: cover;
-  background-image: url(../../../images/user.svg);
-}
-
-.header__icon:first-child {
-  margin-right: 15px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-image: url(../../../images/cabinet.svg);
 }

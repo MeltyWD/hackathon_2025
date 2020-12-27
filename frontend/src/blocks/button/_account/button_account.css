@@ -1,0 +1,7 @@
+.button_account {
+  padding: 12px 70px;
+  margin-top: 168px;
+  margin-bottom: 32px;
+  color: var(--white);
+  background-color: var(--blue);
+}

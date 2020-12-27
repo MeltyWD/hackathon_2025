@@ -14,7 +14,7 @@ function ThirdPage(props) {
   }
 
   return (
-    <section className={`page ${ props.selected === props.pageNumber && 'page_active'}`}>
+    <section className={`selected ${ props.selected === props.pageNumber && 'selected_active'}`}>
       <TopPageSection 
         decisionText={`> ${props.prevSelected.one} > ${props.prevSelected.two}`}
         questionText={'Что Вы предлагаете?'}

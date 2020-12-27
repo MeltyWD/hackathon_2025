@@ -1,14 +1,14 @@
 .options__item {
-  background: rgba(0, 0, 0, 0.15);
+  background-image: url(../../../images/background/background__first.svg);
+  background-position: center bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
   height: 112px;
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: .5s;
 }
 
 .options__item:hover {
-  color: #fff;
-  background: rgba(0, 0, 0, 0.6);
-  transition: .2s;
+  cursor: pointer;
 }
