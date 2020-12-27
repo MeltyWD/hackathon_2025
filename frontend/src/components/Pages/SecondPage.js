@@ -24,27 +24,27 @@ function SecondPage(props) {
         onClickSelect={handleClickNext}
         categoryList={[{
           text: 'Дом',
-          search: 'Дом'
+          search: 'dom'
         },
         {
           text: 'Двор',
-          search: 'Двор'
+          search: 'dvor'
         },
         {
           text: 'Улица',
-          search: 'Улица'
+          search: 'ulica'
         },
         {
           text: 'Общественное пространство',
-          search: 'Общество'
+          search: 'obshestvo'
         },
         {
           text: 'Транспорт',
-          search: 'Транспорт'
+          search: 'transport'
         },
         {
           text: 'Гос. учреждения',
-          search: 'Государство'
+          search: 'gosudarstvo'
         }]}
       />
     </section>
