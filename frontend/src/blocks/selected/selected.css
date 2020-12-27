@@ -1,0 +1,7 @@
+.selected {
+  display: none;
+}
+
+.selected_active {
+  display: block;
+}

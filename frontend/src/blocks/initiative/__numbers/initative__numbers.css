@@ -1,0 +1,10 @@
+.initative__numbers {
+  font-weight: 400;
+  font-size: 9px;
+  line-height: 9px;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  left: 5px;
+  bottom: 5px;
+}

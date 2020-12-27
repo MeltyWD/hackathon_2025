@@ -1,4 +1,6 @@
 .button_description {
-  padding: 20px 80px;
-  margin: 56px auto 96px auto;
+  background-color: var(--yellow1);
+  padding: 12px 0px;
+  margin: 40px auto;
+  width: 240px;
 }

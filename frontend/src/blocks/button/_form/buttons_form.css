@@ -1,6 +1,13 @@
 .button_form {
-  padding: 10px 0 10px 0;
-  width: 192px;
-  display: flex;
-  justify-content: center;
+    padding: 12px 0 12px 0;
+    width: 160px;
+    display: flex;
+    justify-content: center;
+    color: var(--darkgray1);
+    background-color: var(--yellow1);
+}
+
+.button_form:nth-child(2) {
+    color: var(--white);
+    background-color: var(--blue);
 }

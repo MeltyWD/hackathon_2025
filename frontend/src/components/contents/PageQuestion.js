@@ -24,7 +24,7 @@ function PageQuestion(props) {
           />
         )}
       </div>
-      <button onClick={props.onClickBack} className="button button_options page-link">Назад</button>
+      <button onClick={props.onClickBack} className="button button_account page-link">Назад</button>
     </section>
   )
 }

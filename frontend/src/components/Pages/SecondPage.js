@@ -14,7 +14,7 @@ function SecondPage(props) {
   }
 
   return (
-    <section className={`page ${ props.selected === props.pageNumber && 'page_active'}`}>
+    <section className={`selected ${ props.selected === props.pageNumber && 'selected_active'}`}>
       <TopPageSection 
         decisionText={'Давайте начнем.'}
         questionText={'Где находится объект?'}
@@ -32,19 +32,19 @@ function SecondPage(props) {
         },
         {
           text: 'Улица',
-          search: 'улица'
+          search: 'Улица'
         },
         {
           text: 'Общественное пространство',
-          search: 'окружение'
+          search: 'Общество'
         },
         {
           text: 'Транспорт',
-          search: 'повозка'
+          search: 'Транспорт'
         },
         {
           text: 'Гос. учреждения',
-          search: 'государство'
+          search: 'Государство'
         }]}
       />
     </section>

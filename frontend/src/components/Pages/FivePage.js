@@ -8,13 +8,17 @@ function FivePage(props) {
     props.onClickPageChange(4)
   }
 
-  function handleClickNext(text) {
-    props.selectedCategory(text)
-    props.onClickPageChange(5)
+  function handleClickNext(text, author) {
+    const data = {
+      text: text,
+      author: author
+    }
+    props.selectedCategory(data)
+    props.onClickPageChange(6)
   }
 
   return (
-    <section className={`page ${ props.selected === props.pageNumber && 'page_active'}`}>
+    <section className={`selected ${ props.selected === props.pageNumber && 'selected_active'}`}>
       <TopPageSection 
         decisionText={`> ${props.prevSelected.one} > ${props.prevSelected.two} > ${props.prevSelected.three}`}
         questionText={`Выберите одну из ${props.poemList.length} найденных цитат`}
@@ -27,12 +31,14 @@ function FivePage(props) {
               <PoemVariant 
                 key={index}
                 text={poemLines}
+                onSelect={handleClickNext}
                 author={poem.fields.author}
+                selected={false}
               />
             )}
           )}
         </div>
-        <button onClick={handleClickBack} className="button button_options page-link">Назад</button>
+        <button onClick={handleClickBack} className="button button_account page-link">Назад</button>
       </div>
     </section>
   )

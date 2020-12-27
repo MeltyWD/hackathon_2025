@@ -1,15 +1,15 @@
-@import url(./__textbox/variant__textbox.css);
-
 .variant {
-  background: #d5d5d5;
-  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
-  width: 432px;
+  background-image: url(../../images/background/background__second.svg);
+  background-position: center bottom;
+  width: 440px;
+  margin-right: 40px;
+  margin-bottom: 36px;
   box-sizing: border-box;
-  padding: 10px 22px 15px 30px;
+  padding: 10px 0px 15px 30px;
   position: relative;
-  max-height: 170px;
+  height: 190px;
 }
 
-.variant:nth-child(2) {
+.variant:last-child {
   margin-right: 0;
 }

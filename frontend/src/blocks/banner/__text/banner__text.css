@@ -1,8 +1,9 @@
 .banner__text {
-  padding: 35px 48px;
-  position: absolute;
-  max-width: 432px;
-  top: 103px;
-  left: 48px;
-  background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 420px;
+    width: 100%;
+    max-width: 760px;
+    margin-left: 165px;
 }

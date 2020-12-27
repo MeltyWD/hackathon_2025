@@ -1,9 +1,13 @@
 .button_options {
-  margin-top: 224px;
-  padding: 10px 70px;
+    margin-top: 20px;
+    padding: 10px 30px;
+    background: var(--blue);
+    color: var(--white);
+    width: 160px;
 }
 
 .button_options:nth-child(2) {
-  margin-top: 289px;
-  margin-bottom: 72px;
+    background: var(--yellow1);
+    color: var(--darkgray1);
+    width: 200px;
 }

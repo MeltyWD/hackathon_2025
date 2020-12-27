@@ -6,10 +6,15 @@ function PoemVariant(props) {
         {props.text.map((text, index) => 
           <p key={index} className="variant__text">{text}</p>
         )}
-        <p className="variant__text">{props.author}</p>
       </div>
-      <button className="button variant__button page-link"></button>
-      <button className="button button_variant page-link">Годно, беру</button>
+      <p className="variant__text">{props.author}</p>
+      <button className={`button variant__button page-link 
+      ${ props.selected === true && 'button_disable'}`}></button>
+      <button onClick={() => {props.onSelect(props.text, props.author)}} 
+      className={`button variant__button variant__button_add 
+      page-link ${ props.selected === true && 'button_disable'}`
+      }></button>
+      <button className={`button variant__button variant__button_view page-link`}></button>
     </div>
   )
 }

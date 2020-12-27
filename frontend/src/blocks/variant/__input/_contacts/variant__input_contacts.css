@@ -1,0 +1,9 @@
+.variant__input_contacts {
+  border: 1px solid var(--lightgray4);
+  background: transparent;
+  color: white;
+}
+
+.variant__input_contacts::placeholder {
+  color: white;
+}

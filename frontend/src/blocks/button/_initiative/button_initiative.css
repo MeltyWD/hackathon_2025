@@ -1,0 +1,11 @@
+.button_initiative {
+    margin-top: 56px;
+    margin-bottom: 32px;
+    width: 160px;
+    min-height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--blue);
+    color: var(--white)
+}

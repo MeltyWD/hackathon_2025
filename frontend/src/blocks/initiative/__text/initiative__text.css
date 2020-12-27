@@ -1,0 +1,8 @@
+.initiative__text {
+  box-sizing: border-box;
+  width: 420px;
+  min-height: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

@@ -1,0 +1,6 @@
+.form__socials {
+  display: flex;
+  justify-content: space-between;
+  width: 440px;
+  margin-bottom: 16px;
+}
